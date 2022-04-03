@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#fairtech {
+    background-color: #b6d5d0;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+
+#nebuleuse {
+    background-color: #85d7ef;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+
+#tutoriels {
+    background-color: #fdcd33;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+section.blog h3 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+section.blog a {
+    color:#85d7ef;
+    font-weight: bold;
+}
