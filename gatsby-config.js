@@ -35,6 +35,26 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-cookiehub-banner`,
+      options: {
+          // The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
+          cookieHubId: "https://cookiehub.net/c2/41717b06",
+          // Optional parameter (default false) - Use new v2 API.
+          cookieHubV2Api: true,
+          // Categories configured with CookieHub
+          categories: [
+          { 
+              categoryName: 'analytics', // Unique id of the category which is set by Cookiehub.
+              cookieName: 'gatsby-plugin-google-analytics-gdpr_cookies-enabled' // Your custom cookie name
+          },
+          { 
+              categoryName: 'marketing',
+              cookieName: 'marketing-enabled'
+          }
+          ]
+      }
+  },
+    {
       resolve: `gatsby-source-datocms`,
       options: {
         // You can find your read-only API token under the Settings > API tokens
@@ -70,8 +90,10 @@ module.exports = {
         pageSize: 10,
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  
 }

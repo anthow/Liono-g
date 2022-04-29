@@ -7,15 +7,15 @@ const Blog = ({ data }) => (
   <Layout>
     <Seo title="blog - Liono l'agence numérique responsable à Liège" />
 
-    <main class="w-10/12 m-auto py-20">
-      <article class="flex flex-col md:grid grid-cols-2 gap-x-10">
+    <main class="w-12/12 bg-secondary-color m-auto py-20">
+      <article class="flex flex-col w-10/12 m-auto bg-white p-10 md:grid grid-cols-2 gap-y-20 gap-x-10">
         {data.allDatoCmsArticle.edges.map(({ node }, i) =>
           i % 2 ? (
             <>
               {" "}
               <div>
-                <h2 className="text-4xl text-liono-blue ">{node.titre} </h2>
-                <div class="flex items-center gap-x-2 mt-2 mb-20">
+                <h2 className="text-4xl bg-third-color text-white ">{node.titre} </h2>
+                <div class="flex items-center gap-x-2 mt-2 ">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
                     alt={node.auteur.image.alt}
@@ -31,7 +31,11 @@ const Blog = ({ data }) => (
                 </div>
                 <p class="mb-5">{node.chapeau}</p>
                 <Link
-                  className="mx-auto lg:mx-0 w-max  bg-liono-green  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                  className="mx-auto  lg:mx-0  
+                  bg-black  font-bold text-white 
+                  text-lg
+                  my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform 
+                  transition hover:scale-105 duration-300 ease-in-out"
                   to={node.slug}
                 >
                   {" "}
@@ -54,7 +58,7 @@ const Blog = ({ data }) => (
                 />
               </figure>
               <div>
-                <h2 className="text-4xl text-liono-blue ">{node.titre} </h2>
+              <h2 className="text-4xl bg-third-color text-white w-max p-2 ">{node.titre} </h2>
                 <div class="flex items-center gap-x-2 mt-2 mb-10">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
@@ -67,7 +71,11 @@ const Blog = ({ data }) => (
                 </div>
                 <p class="mb-5">{node.chapeau}</p>
                 <Link
-                  className="mx-auto lg:mx-0 w-max  bg-liono-green  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                  className="mx-auto  lg:mx-0  
+                  bg-black  font-bold text-white 
+                  text-lg
+                  my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform 
+                  transition hover:scale-105 duration-300 ease-in-out"
                   to={node.slug}
                 >
                   {" "}
@@ -101,11 +109,6 @@ export const query = graphql`
               alt
               gatsbyImageData(width: 40)
             }
-          }
-          contenu {
-            blocks
-            links
-            value
           }
           imageCover {
             alt

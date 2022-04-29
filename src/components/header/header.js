@@ -5,7 +5,7 @@ import Navbar from "./navbar/navbar";
 
 
 const Header = ({ siteTitle }) => (
-  <header className="w-full py-4 sticky top-0 z-50 bg-white     m-auto">
+  <header className="w-full py-4 bg-secondary-color     m-auto">
     <Navbar />
 </header>
 )

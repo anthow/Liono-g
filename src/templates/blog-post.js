@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -80,11 +79,6 @@ export const query = graphql`
         gatsbyImageData(aspectRatio: 2.3)
       }
       titre
-      contenu {
-        value
-        blocks
-        links
-      }
       seo {
         description
         title

@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header/header"
 import Footer from "./footer"
+import {CookieNotice} from "gatsby-cookie-notice";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,12 +24,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <body className="p-3">
       <Header  siteTitle={data.site.siteMetadata?.title || `Title`} />
     
         <main>{children}</main>
-<Footer />        
-    </>
+
+<Footer />     
+    </body>
   )
 }
 

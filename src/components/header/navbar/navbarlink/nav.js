@@ -1,23 +1,24 @@
 import React from "react"
 import { Link } from "gatsby"
+
 export default function Nav() {
   return (
-    <header className=" p-10 flex flex-col md:flex-row justify-between">
-      <ul className="flex flex-col gap-x-4 m-auto md:flex-row">
+    <header className=" p-10 flex  font-semibold  flex-col md:flex-row justify-between">
+      <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
         <li>
           <Link to="/#service">
             <a
               className="
               py-4
               px-2
-              text-liono-green
-              font-semibold
-              text-lg
-              hover:text-liono-yellow
+              text-black
+              hover:text-gray-600
               transition
-              duration-300"
+              duration-300
+              hidden"
+              
             >
-              Nos services
+             réalisation de site internet
             </a>
           </Link>
         </li>
@@ -27,14 +28,29 @@ export default function Nav() {
               className="
               py-4
               px-2
-              text-liono-green
-              font-semibold
-              text-lg
-              hover:text-liono-yellow
+              text-black
+              hover:text-gray-600
               transition
+              hidden
               duration-300"
             >
-              Nos Engagments
+              Formations numérique 
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link to="/#engagement">
+            <a
+              className="
+              py-4
+              px-2
+              text-black
+              hover:text-gray-600
+              transition
+              hidden
+              duration-300"
+            >
+              accompagnement numérique 
             </a>
           </Link>
         </li>
@@ -44,11 +60,8 @@ export default function Nav() {
               className="
               py-4
               px-2
-              text-liono-green
-              font-semibold
-              text-lg
-              hover:text-liono-yellow
               transition
+              hover:text-gray-600
               duration-300"
             >
               Contact
@@ -61,10 +74,8 @@ export default function Nav() {
               className="
               py-4
               px-2
-              text-liono-green
-              font-semibold
-              text-lg
-              hover:text-liono-yellow
+              text-black
+              hover:text-gray-600
               transition
               duration-300
               "
@@ -73,6 +84,8 @@ export default function Nav() {
               Blog
             </a>
           </Link>
+        </li>
+        <li>
         </li>
       </ul>
     </header>
