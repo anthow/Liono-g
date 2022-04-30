@@ -42,7 +42,7 @@ const Navbar = () => {
             isExpanded ? `block` : `hidden`
           } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
         >
-          <section className="w-10/12 m-auto justify-between text-center items-center py-2 md:flex ">
+          <section className=" w-10/12 m-auto md:justify-between  text-center items-center py-2 md:flex ">
             <Nav />
             <Rs />
           </section>

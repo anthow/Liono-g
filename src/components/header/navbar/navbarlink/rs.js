@@ -8,7 +8,7 @@ import { Link } from "gatsby"
 
 export default function Rs() {
   return (
-    <ul className="flex font-semibold flex-row items-center m-auto gap-2 ">
+    <ul className="flex font-semibold w-3/12 md:w-12/12 flex-row items-center m-auto gap-2 ">
      
       <li>
        <Link to="/#contact">
