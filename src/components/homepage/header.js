@@ -14,16 +14,18 @@ const Header = () => {
         }
         imageHeaderDeux {
           alt
-          gatsbyImageData (width: 2500, height: 1500)
+          gatsbyImageData (width: 2500, height: 1500,    
+)
         }
         titreHeader
         paragrapheHeader
       }
     }
   `)
-  return <article class=" w-12/12  pb-20 bg-secondary-color ">
+  return <article class=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
   
-  <div class="   flex flex-col flex-wrap md:flex-nowrap items-bottom gap-x-80  md:flex-row ">
+  <section  className="  md:w-12/12 py-4 gap-y-5 md:py-0 m-auto bg-primary-color md:items-center md:pl-10  flex flex-col  lg:grid grid-cols-3 ">
+    {/*}
   <div class=" w-5/12 h-min bg-fourth-color self-end pt-32 hidden md:block">
       <GatsbyImage image={data.datoCmsHomepage.imageHeaderUn.gatsbyImageData}
        alt={data.datoCmsHomepage.imageHeaderUn.alt}
@@ -32,9 +34,9 @@ const Header = () => {
        />
 
     </div>
-  
-    <div class="flex m-2 md:py-0 bg-white  flex-col  md:absolute   md:w-1/3 p-4   z-50  left-32 bottom-28
-    justify-center md:items-start text-center md:text-left order-2 md:order-2">
+  {*/}
+    <div class="flex m-2 md:py-0 bg-white  flex-col col-span-1 h-min     p-4  
+    justify-center md:items-start  order-2 md:order-1">
     
     <h2 class=" w-12/12 m-auto text-center text-third-color pt-2 font-bold title text-3xl mb-8">
       {data.datoCmsHomepage.titreHeader}
@@ -51,7 +53,7 @@ const Header = () => {
       </button>
     </a>
   </div>
-    <div class="   md:p-20  bg-primary-color  md:mr-10 order-1 md:order-2">
+    <div class="   md:p-20  bg-primary-color col-span-2  md:mr-10 order-1 md:order-2">
         <GatsbyImage image={data.datoCmsHomepage.imageHeaderDeux.gatsbyImageData}
           className=" w-full   "
           alt={data.datoCmsHomepage.imageHeaderDeux.gatsbyImageData}
@@ -60,7 +62,7 @@ const Header = () => {
      
     </div>
     
-  </div>
+  </section>
 
 </article>
 }

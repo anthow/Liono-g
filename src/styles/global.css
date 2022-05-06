@@ -99,3 +99,14 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+div.timeline{
+  left: 50% !important;
+}
+
+section.siteinternet{
+  background-image: url("https://res.cloudinary.com/liono/image/upload/v1651650233/site%20Liono/pexels-format-1029757-ConvertImage_t95yvn.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
