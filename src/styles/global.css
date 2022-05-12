@@ -110,3 +110,9 @@ section.siteinternet{
   background-repeat:no-repeat;
   background-size:cover;
 }
+
+section.data{
+  background-image: url("https://res.cloudinary.com/liono/image/upload/v1652262055/site%20Liono/pexels-manuel-geissinger-325229-ConvertImage_rqi3lk.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}

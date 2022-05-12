@@ -1,5 +1,4 @@
-import { Link } from "gatsby"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
@@ -30,7 +29,7 @@ const Realisation = () => {
         <div className="w-10/12 m-auto flex flex-col gap-y-10 md:gap-20 md:grid grid-cols-2 auto-rows-max">
         {data.allDatoCmsRealisation.edges.map(({ node }) => {
             return (
-              <a href={node.url} target="_blank">
+              <a href={node.url} target="_blank" rel="noreferrer" >
               <div class="container">
     
               <GatsbyImage image={node.image.gatsbyImageData} alt={node.image.alt} />

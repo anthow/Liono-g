@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import Nav from "./navbarlink/nav"
 import Rs from "./navbarlink/rs"
 import { Link } from "gatsby"
@@ -9,11 +8,12 @@ const Navbar = () => {
   return (
     <>
       <nav className=" px-4 w-12/12   m-auto flex justify-between items-center">
+      <Link to="/">
         <article className="flex   flex-col gap-x-10 ">
           <h1 className="text-5xl bg-fourth-color w-min p-2 text-white title font-black">Liono</h1>
           <h2 className=" italic  title text-xs">Agence numérique reponsable</h2>
-         
         </article>
+        </Link>
         <article className="hidden md:block">
           <Nav className="" />
         </article>

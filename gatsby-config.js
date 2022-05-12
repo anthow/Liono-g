@@ -11,6 +11,11 @@ module.exports = {
     'gatsby-plugin-postcss',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-robots-txt',
+    `gatsby-plugin-minify`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-preload-fonts`,
+    'gatsby-plugin-robots-txt',
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {

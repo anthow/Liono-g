@@ -6,7 +6,7 @@ export default function Nav() {
     <header className=" p-10 flex  font-semibold  flex-col md:flex-row justify-between">
       <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
         <li>
-          <Link to="/#service">
+          <Link to="/site-internet">
             <a
               className="
               py-4
@@ -15,7 +15,7 @@ export default function Nav() {
               hover:text-gray-600
               transition
               duration-300
-              hidden"
+              "
               
             >
              réalisation de site internet

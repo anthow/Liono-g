@@ -39,7 +39,7 @@ const Formations = ({ data }) => (
                       font-bold text-white rounded-full  py-2 px-4 shadow-lg
                       focus:outline-none focus:shadow-outline
                       transform transition hover:scale-105 duration-300 ease-in-out"
-                    href={node.lienInscription} target="_blank"
+                    href={node.lienInscription} target="_blank" rel="noreferrer" 
                   >
                     Inscription
                   </a>
@@ -94,7 +94,7 @@ const Formations = ({ data }) => (
                       font-bold text-white rounded-full  py-2 px-4 shadow-lg
                       focus:outline-none focus:shadow-outline
                       transform transition hover:scale-105 duration-300 ease-in-out"
-                    href={node.lienInscription} target="_blank"
+                    href={node.lienInscription} target="_blank" rel="noreferrer" 
                   >
                     Inscription
                   </a>

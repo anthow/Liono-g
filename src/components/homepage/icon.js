@@ -1,12 +1,9 @@
-import { Link } from "gatsby"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useStaticQuery, graphql } from "gatsby"
 import {
     faLaptop,
     faPersonCircleQuestion,
-    faScreenUsers,
     faPeopleGroup,
    
   } from '@fortawesome/free-solid-svg-icons'
