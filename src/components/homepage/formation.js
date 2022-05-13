@@ -20,7 +20,7 @@ const Formation = () => {
     }
   `)
   return (
-    <article class=" w-12/12   md:grid gap-x-20 grid-cols-4  ">
+    <article class=" w-12/12 s  md:grid gap-x-20 grid-cols-4  ">
       <section className="bg-secondary-color col-span-1 hidden md:block"></section>
       <section className="col-span-3 py-20 flex flex-col gap-y-10">
         <h2 className="text-3xl bg-third-color text-white w-max px-2">
