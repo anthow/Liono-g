@@ -11,7 +11,7 @@ const Formations = ({ data }) => (
       {data.allDatoCmsFormation.edges.map(({ node }, i) =>
         i % 2 ? (
           <>
-            <article class="w-12/12 bg-liono-blue p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
+            <article class="w-12/12 bg-third-color p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
               <div>
                 <h2 className="text-4xl text-white ">{node.titreFormation} </h2>
                 <h3 className="my-5 text-xl text-white">
@@ -19,14 +19,15 @@ const Formations = ({ data }) => (
                   {node.sousTitreFormation}
                 </h3>
                 <p
-                  className=" text-white "
+                  className=" "
                   dangerouslySetInnerHTML={{
                     __html: node.texteIntroductif,
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4 mt-2 mb-8">
                   <Link
-                    className="mx-auto lg:mx-0 w-max  bg-white  font-bold text-primary-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    className="mx-auto lg:mx-0 w-max  bg-white  
+                    font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
                   >
                     {" "}
@@ -34,7 +35,7 @@ const Formations = ({ data }) => (
                   </Link>
 
                   <a
-                    className="mx-auto lg:mx-0 w-max  bg-liono-green
+                    className="mx-auto lg:mx-0 w-max  bg-primary-color
                       font-bold text-white rounded-full  py-2 px-4 shadow-lg
                       focus:outline-none focus:shadow-outline
                       transform transition hover:scale-105 duration-300 ease-in-out"
@@ -45,7 +46,7 @@ const Formations = ({ data }) => (
                     Inscription
                   </a>
                   <Link
-                    className="mx-auto lg:mx-0 w-max  bg-liono-yellow  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    className="mx-auto lg:mx-0 w-max  bg-fift-color  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
                   >
                     {" "}
@@ -63,7 +64,7 @@ const Formations = ({ data }) => (
           </>
         ) : (
           <>
-            <article class="w-12/12 bg-liono-green p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
+            <article class="w-12/12 bg-primary-color p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
               <figure className="md:mb-20">
                 <GatsbyImage
                   image={node.imageFormation.gatsbyImageData}
@@ -72,26 +73,27 @@ const Formations = ({ data }) => (
               </figure>
               <div>
                 <h2 className="text-4xl text-white ">{node.titreFormation} </h2>
-                <h3 className="my-5 text-xl text-white">
+                <h3 className="my-5 text-2xl text-white">
                   {" "}
                   {node.sousTitreFormation}
                 </h3>
                 <p
-                  className=" text-white "
+                  className="  "
                   dangerouslySetInnerHTML={{
                     __html: node.texteIntroductif,
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4 mt-2 mb-8">
                   <Link
-                    className="mx-auto lg:mx-0 w-max  bg-white  font-bold text-liono-green rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                    className="mx-auto lg:mx-0 w-max  
+                    bg-white  font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
                   >
                     {" "}
                     En savoir plus
                   </Link>
                   <a
-                    className="mx-auto lg:mx-0 w-max  bg-liono-blue
+                    className="mx-auto lg:mx-0 w-max  bg-third-color
                       font-bold text-white rounded-full  py-2 px-4 shadow-lg
                       focus:outline-none focus:shadow-outline
                       transform transition hover:scale-105 duration-300 ease-in-out"
@@ -103,7 +105,7 @@ const Formations = ({ data }) => (
                   </a>
                   <Link
                     className="mx-auto lg:mx-0 w-max
-                      bg-liono-yellow  font-bold text-white rounded-full  
+                      bg-fift-color  font-bold text-white rounded-full  
                       py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline 
                       transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
