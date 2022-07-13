@@ -59,7 +59,9 @@ p {
     margin-bottom: 1em;
 }
 
-
+.programme h3{
+  font-size: 150%;
+}
 .container {
   position: relative;
   width: 100%;
