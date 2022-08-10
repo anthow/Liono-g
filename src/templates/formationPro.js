@@ -2,10 +2,14 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import { GatsbyImage } from "gatsby-plugin-image"
+import Seo from "../components/seo"
 
 const formation = ({ data }) => (
   <>
-    <Layout>
+ <Seo
+      title= {data.datoCmsFormationPro.seo.title}
+      description={data.datoCmsFormationPro.seo.description}
+    />    <Layout>
       <article class=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
         <section className="  md:w-12/12 py-4 gap-y-5 md:py-0 m-auto bg-primary-color md:items-center md:pl-10  flex flex-col  lg:grid grid-cols-3 ">
           {/*}
@@ -207,6 +211,10 @@ export const query = graphql`
       slug
       programme
       prix
+      seo {
+      description
+      title
+    }
     }
     datoCmsHomepage {
       imageContact {
