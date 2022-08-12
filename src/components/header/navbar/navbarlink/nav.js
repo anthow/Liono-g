@@ -18,7 +18,7 @@ export default function Nav() {
               "
               
             >
-             réalisation de site internet
+             Réalisation de site internet
             </a>
           </Link>
         </li>
