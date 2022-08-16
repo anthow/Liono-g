@@ -28,7 +28,8 @@ const Layout = ({ children }) => {
     
         <main className="">{children}</main>
 
-<Footer />     
+<Footer />  
+<script async defer src="https://scripts.withcabin.com/hello.js"></script>   
     </body>
   )
 }
