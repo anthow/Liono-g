@@ -12,7 +12,8 @@ const BlogPost = ({ data }) => (
         image={data.datoCmsArticle.seo.image.gatsbyImageData}
         description={data.datoCmsArticle.seo.description}
       />
-      <main class="w-10/12 m-auto pt-5 pb-20 flex flex-col">
+      <main className="w-12/12 bg-secondary-color ">
+      <div class="w-10/12 m-auto pt-5 bg-white px-2 md:px-10 pb-20  flex flex-col">
         <figure className="mb-5">
           <GatsbyImage
             image={data.datoCmsArticle.imageCover.gatsbyImageData}
@@ -48,6 +49,7 @@ const BlogPost = ({ data }) => (
             }}
           />
         </article>
+        </div>
       </main>
     </Layout>
   </>
