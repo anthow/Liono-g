@@ -24,7 +24,7 @@ const BlogPost = ({ data }) => (
           <h2 className="text-4xl text-liono-blue mb-5">
             {data.datoCmsArticle.titre}{" "}
           </h2>
-          <div class="flex items-center gap-x-2 mt-2 ">
+          <div class="flex items-center  gap-x-2 mt-2 ">
             <GatsbyImage
               image={data.datoCmsArticle.auteur.image.gatsbyImageData}
               alt={data.datoCmsArticle.auteur.image.alt}
@@ -35,7 +35,7 @@ const BlogPost = ({ data }) => (
                 par {data.datoCmsArticle.auteur.nom}
               </div>
               <div
-                className={`bg-${data.datoCmsArticle.categorie.tailwind} text-white w-max p-1`}>
+                className={`bg-${data.datoCmsArticle.categorie.tailwind}  w-max p-1`}>
                 <p className="text-xs">{data.datoCmsArticle.categorie.nom}</p>
               </div>
             </section>
