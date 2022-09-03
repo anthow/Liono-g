@@ -13,7 +13,7 @@ const Realisation = () => {
           titre
           image {
             alt
-            gatsbyImageData
+            gatsbyImageData(aspectRatio: 1.8)
  
           }
         }
