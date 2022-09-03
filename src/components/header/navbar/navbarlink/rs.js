@@ -8,8 +8,9 @@ import { Link } from "gatsby"
 
 export default function Rs() {
   return (
-    <ul className="flex font-semibold w-3/12 md:w-10/12 flex-row items-center m-auto gap-2 ">
-     
+    <>
+    <ul className="flex font-semibold w-3/12 md:w-11/12 flex-row items-center m-auto gap-2 ">
+    
       <li>
        <Link to="/#contact">
         
@@ -52,6 +53,32 @@ export default function Rs() {
       <Appel />
 
       </li>
+      <li className="hidden md:block">
+     <a href="https://calendly.com/anthonyenglebert" target="_blank" rel="noreferrer" >
+      <button class="mx-auto  lg:mx-0  
+      bg-black  font-bold text-white 
+      text-sm
+      my-6 py-2 px-4 hover:bg-gray-600 shadow-lg focus:outline-none focus:shadow-outline transform 
+      transition hover:scale-105 duration-300 ease-in-out">
+        Prendre un RDV{" "}
+      </button>
+    </a>
+
+     </li>
     </ul>
+
+<div className=" md:hidden">
+<a href="https://calendly.com/anthonyenglebert" target="_blank" rel="noreferrer" >
+ <button class="mx-auto  lg:mx-0  
+ bg-black  font-bold text-white 
+ text-sm
+ my-6 py-2 px-4 hover:bg-gray-600 shadow-lg focus:outline-none focus:shadow-outline transform 
+ transition hover:scale-105 duration-300 ease-in-out">
+   Prendre un RDV{" "}
+ </button>
+</a>
+
+</div>
+</>
   )
 }
