@@ -331,7 +331,7 @@ const SitePage = () => (
           <figure>
             <a href="https://withcabin.com/" rel="noreferrer" target="_blank">
 
-              <StaticImage alt="Logo de l'outil d'analyse Cabin" src="https://res.cloudinary.com/liono/image/upload/v1662289006/site%20Liono/cabin-logo_or4xxk.svg" />
+              <StaticImage alt="Logo de l'outil d'analyse Cabin" src="https://res.cloudinary.com/liono/image/upload/v1662289006/site%20Liono/cabin-logo_or4xxk.webp" />
             </a>
           </figure>
         </div>
