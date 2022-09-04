@@ -219,22 +219,22 @@ const SitePage = () => (
           <figure>
             <a href="https://strapi.io/" rel="noreferrer" target="_blank">
               {" "}
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651677577/site%20Liono/Strapi.logo.assets/PNG/PNG.logo.purple.dark_mjk7s9.png" />
+              <StaticImage  alt="Logo du CMS strapi" src="https://res.cloudinary.com/liono/image/upload/v1651677577/site%20Liono/Strapi.logo.assets/PNG/PNG.logo.purple.dark_mjk7s9.png" />
             </a>
           </figure>
           <figure>
             <a href="https://www.datocms.com/" rel="noreferrer" target="_blank">
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651677895/site%20Liono/Brand%20assets/Png/Icon%20and%20text/Color/color_full_logo_afc1rt.png" />
+              <StaticImage alt="Logo du CMS DatoCMS" src="https://res.cloudinary.com/liono/image/upload/v1651677895/site%20Liono/Brand%20assets/Png/Icon%20and%20text/Color/color_full_logo_afc1rt.png" />
             </a>
           </figure>
           <figure>
             <a href="https://www.contentful.com/" rel="noreferrer" target="_blank">
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652256453/site%20Liono/logo-contentful_u1hxnt.png" />
+              <StaticImage alt="Logo du CMS Contentful" src="https://res.cloudinary.com/liono/image/upload/v1652256453/site%20Liono/logo-contentful_u1hxnt.png" />
             </a>
           </figure>
           <figure>
             <a href="https://forestry.io/" rel="noreferrer" target="_blank">
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652256754/site%20Liono/forestry-removebg-preview_tfytyc.png" />
+              <StaticImage alt="Logo du CMS Forestry" src="https://res.cloudinary.com/liono/image/upload/v1652256754/site%20Liono/forestry-removebg-preview_tfytyc.png" />
             </a>
           </figure>
         </div>
@@ -263,25 +263,25 @@ const SitePage = () => (
         <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 order-1 md:order-2  ">
           <figure>
             <a href="https://www.gatsbyjs.com/" rel="noreferrer" target="_blank">
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257370/site%20Liono/Gatsby_Logo_cgj5lx.png" />
+              <StaticImage alt="Logo du service du framework Gatsby" src="https://res.cloudinary.com/liono/image/upload/v1652257370/site%20Liono/Gatsby_Logo_cgj5lx.png" />
             </a>
           </figure>
           <figure>
-          <a href="https://astro.build/" rel="noreferrer" target="_blank">
+            <a href="https://astro.build/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257504/site%20Liono/astro_wt2ndv.png" />
+              <StaticImage alt="Logo du Framework Astro" src="https://res.cloudinary.com/liono/image/upload/v1652257504/site%20Liono/astro_wt2ndv.png" />
             </a>
           </figure>
           <figure>
-          <a href="https://nextjs.org/" rel="noreferrer" target="_blank">
+            <a href="https://nextjs.org/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257655/site%20Liono/800px-Nextjs-logo.svg_cpqulz.png" />
+              <StaticImage alt="Logo du framework Svelte" src="https://res.cloudinary.com/liono/image/upload/v1652257655/site%20Liono/800px-Nextjs-logo.svg_cpqulz.png" />
             </a>
           </figure>
           <figure>
-          <a href="https://svelte.dev/" rel="noreferrer" target="_blank">
+            <a href="https://svelte.dev/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257720/site%20Liono/svelte-logo_fvn3bb.png" />
+              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257720/site%20Liono/svelte-logo_fvn3bb.png" />
             </a>
           </figure>
         </div>
@@ -313,26 +313,26 @@ const SitePage = () => (
         <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center  ">
           <figure>
             <a href="https://cloudinary.com/" rel="noreferrer" target="_blank">
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652258607/site%20Liono/cloudinary_rwpaum.png" />
+              <StaticImage alt="Logo de l'outil de gestion d'image Cloudinary" src="https://res.cloudinary.com/liono/image/upload/v1652258607/site%20Liono/cloudinary_rwpaum.png" />
             </a>
           </figure>
           <figure>
-          <a href="https://formspree.io/" rel="noreferrer" target="_blank">
+            <a href="https://formspree.io/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652261543/site%20Liono/5ef956a55caef50ed61ec7e2_formspree-logo-full-horizontal_2x_kecmjh.png" />
-         </a>
+              <StaticImage alt="Logo du l'outil de gestion de formulaire Formspree" src="https://res.cloudinary.com/liono/image/upload/v1652261543/site%20Liono/5ef956a55caef50ed61ec7e2_formspree-logo-full-horizontal_2x_kecmjh.png" />
+            </a>
           </figure>
           <figure>
-          <a href="https://formspree.io/" rel="noreferrer" target="_blank">
+            <a href="https://formspree.io/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652261625/site%20Liono/logo-algolia-nebula-blue-full_a6cns6.png" />
-         </a>
+              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652261625/site%20Liono/logo-algolia-nebula-blue-full_a6cns6.png" />
+            </a>
           </figure>
           <figure>
-          <a href="https://matomo.org/" rel="noreferrer" target="_blank">
+            <a href="https://withcabin.com/" rel="noreferrer" target="_blank">
 
-            <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652261734/site%20Liono/1280px-Matomo_Logo.svg_o2hkwv.png" />
-          </a>
+              <StaticImage alt="Logo de l'outil d'analyse Cabin" src="https://res.cloudinary.com/liono/image/upload/v1662289006/site%20Liono/cabin-logo_or4xxk.svg" />
+            </a>
           </figure>
         </div>
         <div className=" flex gap-y-10 flex-col ">
@@ -369,7 +369,7 @@ const SitePage = () => (
           <p>
             En fonction de votre projet, Liono vous propose un hebergement vert
             soit chez           <a href="https://www.infomaniak.com/fr" rel="noreferrer" target="_blank">
- Infomaniak </a>, soit chez <a href="https://www.monsitevert.fr/" rel="noreferrer" target="_blank"> Mon Site Vert </a>
+              Infomaniak </a>, soit chez <a href="https://www.monsitevert.fr/" rel="noreferrer" target="_blank"> Mon Site Vert </a>
           </p>
         </div>
       </section>
