@@ -16,7 +16,7 @@ const SitePage = () => (
       description="Liono l'agence numérique qui réalise votre site internet  écoresponsables à Liège"
     />
     <article className="flex flex-col md:grid grid-cols-7  bg-secondary-color ">
-      <section className="col-span-1 bg-primary-color"></section>
+      <section className=" bg-primary-color"></section>
       <section className="col-span-6 siteinternet  py-60  ">
         {/*}<StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651614043/site%20Liono/pexels-format-1029757_q6b8pg.jpg"/>{*/}
         <div className=" flex flex-col m-auto content-center self-center items-center">
@@ -29,7 +29,7 @@ const SitePage = () => (
     </article>
     {/*} partie deux {*/}
     <article class=" w-12/12 py-20   bg-primary-color flex  ">
-      <div className=" flex flex-col md:grid grid-cols-3 gap-x-20 w-10/12 m-auto">
+      <div className=" flex flex-col md:grid grid-cols-2 gap-x-20 w-10/12 m-auto">
         <section className="flex flex-col text-center items-center gap-y-5">
           <FontAwesomeIcon icon={faLaptop} size="4x" className="" />
           <h2 className="text-3xl bg-third-color text-white px-2">
@@ -205,7 +205,7 @@ const SitePage = () => (
           </div>
         </div>
       </section>
-      <section className="bg-primary-color col-span-1"></section>
+      <section className="bg-primary-color "></section>
     </article>
     {/*} partie quatre {*/}
 
@@ -214,8 +214,8 @@ const SitePage = () => (
         {" "}
         nos outils{" "}
       </h2>
-      <section className="flex w-10/12 m-auto items-center m-auto content-center flex-col gap-40 md:grid grid-cols-3">
-        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center col-span-1 ">
+      <section className="flex w-10/12 m-auto items-center m-auto content-center flex-col gap-40 md:grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center  ">
           <figure>
             <a href="https://strapi.io/" rel="noreferrer" target="_blank">
               {" "}
@@ -238,7 +238,7 @@ const SitePage = () => (
             </a>
           </figure>
         </div>
-        <div className="col-span-2 flex gap-y-10 flex-col ">
+        <div className=" flex gap-y-10 flex-col ">
           <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
             CMS headless
           </h3>
@@ -259,8 +259,8 @@ const SitePage = () => (
       </section>
     </article>
     <article className="bg-primary-color flex flex-col gap-y-20 py-20">
-      <section className="flex w-10/12 m-auto items-center flex-col gap-40 md:grid grid-cols-3">
-        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 order-1 md:order-2 col-span-1 ">
+      <section className="flex w-10/12 m-auto items-center flex-col gap-40 md:grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 order-1 md:order-2  ">
           <figure>
             <a href="https://www.gatsbyjs.com/" rel="noreferrer" target="_blank">
             <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257370/site%20Liono/Gatsby_Logo_cgj5lx.png" />
@@ -285,7 +285,7 @@ const SitePage = () => (
             </a>
           </figure>
         </div>
-        <div className="col-span-2 flex gap-y-10 flex-col order-2 md:order-1 ">
+        <div className=" flex gap-y-10 flex-col order-2 md:order-1 ">
           <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
             Générateur de site statique
           </h3>
@@ -309,8 +309,8 @@ const SitePage = () => (
       </section>
     </article>
     <article className="bg-primary-color flex flex-col gap-y-20 py-20">
-      <section className="flex w-10/12 m-auto items-center m-auto content-center flex-col gap-40 md:grid grid-cols-3">
-        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center col-span-1 ">
+      <section className="flex w-10/12 m-auto items-center m-auto content-center flex-col gap-40 md:grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center  ">
           <figure>
             <a href="https://cloudinary.com/" rel="noreferrer" target="_blank">
             <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652258607/site%20Liono/cloudinary_rwpaum.png" />
@@ -335,7 +335,7 @@ const SitePage = () => (
           </a>
           </figure>
         </div>
-        <div className="col-span-2 flex gap-y-10 flex-col ">
+        <div className=" flex gap-y-10 flex-col ">
           <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
             Les API{" "}
           </h3>
@@ -354,7 +354,7 @@ const SitePage = () => (
       </section>
     </article>
     <article className="flex flex-col md:grid grid-cols-7  bg-secondary-color ">
-      <section className="col-span-1 bg-primary-color"></section>
+      <section className=" bg-primary-color"></section>
       <section className="col-span-6 data  py-60  ">
         {/*}<StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651614043/site%20Liono/pexels-format-1029757_q6b8pg.jpg"/>{*/}
         <div className=" flex flex-col m-auto content-center p-4 w-9/12 md:w-1/2 bg-third-color text-white w-max self-center items-center">
