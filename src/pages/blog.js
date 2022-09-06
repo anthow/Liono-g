@@ -8,13 +8,13 @@ const Blog = ({ data }) => (
     <Seo title="blog - Liono l'agence numérique responsable à Liège" />
 
     <main class="w-12/12 bg-secondary-color m-auto py-20">
-      <article class="flex flex-col w-10/12 m-auto bg-white p-10 md:grid grid-cols-2 gap-y-20 gap-x-10">
+      <article class="flex flex-col w-11/12 md:w-10/12 m-auto pb-10 bg-white p-1 md:p-10 md:grid grid-cols-2 gap-y-10 md:gap-y-20 gap-x-10">
         {data.allDatoCmsArticle.edges.map(({ node }, i) =>
           i % 2 ? (
             <>
               {" "}
-              <div>
-                <h2 className="text-4xl bg-third-color text-white ">{node.titre} </h2>
+              <div className="order-2 md:order-1">
+                <h2 className="text-2xl p-2 md:text-4xl bg-third-color text-white ">{node.titre} </h2>
                 <div class="flex items-center gap-x-2 mt-2 ">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
@@ -42,7 +42,7 @@ const Blog = ({ data }) => (
                   lire la suite...
                 </Link>
               </div>
-              <figure className="md:mb-20">
+              <figure className="md:mb-20 order-1 md:order-2 ">
                 <GatsbyImage
                   image={node.imageCover.gatsbyImageData}
                   alt={node.imageCover.alt}
@@ -51,6 +51,7 @@ const Blog = ({ data }) => (
             </>
           ) : (
             <>
+            
               <figure className="md:mb-20">
                 <GatsbyImage
                   image={node.imageCover.gatsbyImageData}
@@ -58,7 +59,7 @@ const Blog = ({ data }) => (
                 />
               </figure>
               <div>
-              <h2 className="text-4xl bg-third-color text-white w-max p-2 ">{node.titre} </h2>
+              <h2 className="text-2xl bg-third-color text-white w-max p-2 ">{node.titre} </h2>
                 <div class="flex items-center gap-x-2 mt-2 mb-10">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
