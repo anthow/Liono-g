@@ -68,7 +68,7 @@ export default function Rs() {
     </ul>
 
 <div className=" md:hidden">
-<a href="https://calendly.com/anthonyenglebert" target="_blank" rel="noreferrer" >
+<a href="https://calendly.com/anthonyenglebert/videoconference" target="_blank" rel="noreferrer" >
  <button class="mx-auto  lg:mx-0  
  bg-black  font-bold text-white 
  text-sm
