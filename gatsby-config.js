@@ -4,6 +4,7 @@ module.exports = {
     description: `Liono l'agence numérique qui vous accompagne dans le développement de vos solutions numériques écoresponsables à Liège`,
     author: `Anthony Englebert`,
     siteUrl: `https://liono.be/`,
+    image:`https://res.cloudinary.com/liono/image/upload/v1662537322/site%20Liono/liono_t8rwzy.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
