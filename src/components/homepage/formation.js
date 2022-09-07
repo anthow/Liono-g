@@ -1,9 +1,9 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+//import { useStaticQuery, graphql } from "gatsby"
 
 const Formation = () => {
-  const data = useStaticQuery(graphql`
+  /*const data = useStaticQuery(graphql`
     {
       allDatoCmsFormation {
         edges {
@@ -18,7 +18,7 @@ const Formation = () => {
         }
       }
     }
-  `)
+  `)*/
   return (
     <article class=" w-12/12 s  md:grid gap-x-20 grid-cols-4  ">
       <section className="bg-secondary-color col-span-1 hidden md:block"></section>

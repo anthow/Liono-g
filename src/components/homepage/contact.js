@@ -1,5 +1,4 @@
-import { Link } from "gatsby"
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
@@ -36,12 +35,12 @@ const Contact = () => {
     accept-charset="utf-8" action="https://formspree.io/f/mpzbzwyn" method="post"
     className="bg-primary-color p-10">
   <fieldset id="fs-frm-inputs" className="flex flex-col">
-    <label for="full-name" className="">Nom</label>
+    <label  htmlFor="full-name" className="">Nom</label>
     <input type="text" name="name" id="full-name" 
      className="border mb-2 w-max" required=""/>
-    <label for="email-address">Adresse mail</label>
+    <label htmlFor="email-address">Adresse mail</label>
     <input type="email" name="_replyto" id="email-address"  className="border mb-2 w-max" required=""/>
-    <label for="message">Message</label>
+    <label htmlFor="message">Message</label>
     <textarea rows="5" name="message" id="message" className="border mb-2"  required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
   </fieldset>

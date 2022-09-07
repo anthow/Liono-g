@@ -125,7 +125,7 @@ const formation = ({ data }) => (
             Vous souhaitez en savoir plus sur cette formation ou la proposer à
             vos porteurs de projet ?<br />
             N'hésitez pas à nous contacter à l'adresse{" "}
-            <a href="mailto:anthony@liono.be" target="_blank">
+            <a href="mailto:anthony@liono.be" target="_blank" rel="noreferrer">
               anthony@liono.be
             </a>{" "}
             ou remplir le formulaire de contact ci-desous
@@ -144,7 +144,7 @@ const formation = ({ data }) => (
               className="bg-primary-color p-10"
             >
               <fieldset id="fs-frm-inputs" className="flex flex-col">
-                <label for="full-name" className="">
+                <label htmlFor="full-name" className="">
                   Nom
                 </label>
                 <input
@@ -154,7 +154,7 @@ const formation = ({ data }) => (
                   className="border mb-2 w-max"
                   required=""
                 />
-                <label for="email-address">Adresse mail</label>
+                <label htmlFor="email-address">Adresse mail</label>
                 <input
                   type="email"
                   name="_replyto"
@@ -162,7 +162,7 @@ const formation = ({ data }) => (
                   className="border mb-2 w-max"
                   required=""
                 />
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   rows="5"
                   name="message"

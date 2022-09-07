@@ -19,7 +19,8 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
-            image
+            keywords
+            logo
           }
         }
       }
@@ -28,6 +29,8 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const keywords = site.siteMetadata.keywords
+  const logo = site.siteMetadata.logo
 
   return (
     <Helmet
@@ -41,6 +44,12 @@ function Seo({ description, lang, meta, title }) {
           name: `description`,
           content: metaDescription,
         },
+
+        {
+          name: `keywords`,
+          content: keywords,
+        },
+        
         {
           property: `og:title`,
           content: title,
@@ -49,15 +58,13 @@ function Seo({ description, lang, meta, title }) {
           property: `og:description`,
           content: metaDescription,
         },
-        
-        {
-          property: `og:image`,
-          content: image,
-        },
-        
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: logo,
         },
         {
           name: `twitter:card`,

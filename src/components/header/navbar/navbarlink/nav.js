@@ -7,7 +7,7 @@ export default function Nav() {
       <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
         <li>
           <Link to="/site-internet">
-            <a
+            <p
               className="
               py-4
               px-2
@@ -19,12 +19,12 @@ export default function Nav() {
               
             >
              Réalisation de site internet
-            </a>
+            </p>
           </Link>
         </li>
         <li>
           <Link to="/#engagement">
-            <a
+            <p
               className="
               py-4
               px-2
@@ -35,12 +35,12 @@ export default function Nav() {
               duration-300"
             >
               Formations numérique 
-            </a>
+            </p>
           </Link>
         </li>
         <li>
           <Link to="/#engagement">
-            <a
+            <p
               className="
               py-4
               px-2
@@ -51,12 +51,12 @@ export default function Nav() {
               duration-300"
             >
               accompagnement numérique 
-            </a>
+            </p>
           </Link>
         </li>
         <li>
           <Link to="/#contact">
-            <a
+            <p
               className="
               py-4
               px-2
@@ -65,12 +65,12 @@ export default function Nav() {
               duration-300"
             >
               Contact
-            </a>
+            </p>
           </Link>
         </li>
         <li>
           <Link to="/blog">
-            <a
+            <p
               className="
               py-4
               px-2
@@ -82,7 +82,7 @@ export default function Nav() {
 
             >
               Blog
-            </a>
+            </p>
           </Link>
         </li>
         <li>
