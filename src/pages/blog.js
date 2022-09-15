@@ -10,46 +10,6 @@ const Blog = ({ data }) => (
     <main class="w-12/12 bg-secondary-color m-auto py-20">
       <article class="flex flex-col w-11/12 md:w-10/12 m-auto pb-10 bg-white p-1 md:p-10 md:grid grid-cols-2 gap-y-10 md:gap-y-20 gap-x-10">
         {data.allDatoCmsArticle.edges.map(({ node }, i) =>
-          i % 2 ? (
-            <>
-              {" "}
-              <div className="order-2 md:order-1">
-                <h2 className="text-2xl p-2 md:text-4xl bg-third-color text-white ">{node.titre} </h2>
-                <div class="flex items-center gap-x-2 mt-2 ">
-                  <GatsbyImage
-                    image={node.auteur.image.gatsbyImageData}
-                    alt={node.auteur.image.alt}
-                  />
-                  <div class="italic">
-                    Article rédigé le {node.meta.firstPublishedAt} par{" "}
-                    {node.auteur.nom}
-                  </div>
-                  <div
-                className={`bg-${node.categorie.tailwind} text-white w-max p-1`}>
-                <p className="text-xs">{node.categorie.nom}</p>
-              </div>
-                </div>
-                <p class="mb-5">{node.chapeau}</p>
-                <Link
-                  className="mx-auto  lg:mx-0  
-                  bg-black  font-bold text-white 
-                  text-lg
-                  my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform 
-                  transition hover:scale-105 duration-300 ease-in-out"
-                  to={node.slug}
-                >
-                  {" "}
-                  lire la suite...
-                </Link>
-              </div>
-              <figure className="md:mb-20 order-1 md:order-2 ">
-                <GatsbyImage
-                  image={node.imageCover.gatsbyImageData}
-                  alt={node.imageCover.alt}
-                />
-              </figure>
-            </>
-          ) : (
             <>
             
               <figure className="md:mb-20">
@@ -84,8 +44,8 @@ const Blog = ({ data }) => (
                 </Link>
               </div>
             </>
-          )
-        )}
+          ) 
+        }
       </article>
     </main>
   </Layout>
