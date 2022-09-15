@@ -7,7 +7,7 @@ const Blog = ({ data }) => (
   <Layout>
     <Seo title="blog - Liono l'agence numérique responsable à Liège" />
 
-    <main class="w-12/12 bg-secondary-color m-auto py-20">
+    <main class="w-12/12 bg-secondary-color m-auto pb-20">
       <article class="flex flex-col w-11/12 md:w-10/12 m-auto pb-10 bg-white p-1 md:p-10 md:grid grid-cols-2 gap-y-10 md:gap-y-20 gap-x-10">
         {data.allDatoCmsArticle.edges.map(({ node }, i) =>
             <>
