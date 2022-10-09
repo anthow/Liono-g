@@ -19,7 +19,7 @@ const Blog = ({ data }) => (
                 />
               </figure>
               <div>
-              <h2 className="text-2xl bg-third-color break-all text-white w-max p-2 ">{node.titre} </h2>
+              <h2 className="text-2xl bg-third-color break-words text-white w-full p-2 ">{node.titre} </h2>
                 <div class="flex items-center gap-x-2 mt-2 mb-10">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
