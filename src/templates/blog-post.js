@@ -21,7 +21,7 @@ const BlogPost = ({ data }) => (
           />
         </figure>
         <article className="mb-10">
-          <h2 className="text-4xl text-liono-blue mb-5">
+          <h2 className="text-4xl break-all text-liono-blue mb-5">
             {data.datoCmsArticle.titre}{" "}
           </h2>
           <div class="flex items-center  gap-x-2 mt-2 ">
