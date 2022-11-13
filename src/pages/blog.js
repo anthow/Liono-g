@@ -52,7 +52,7 @@ const Blog = ({ data }) => (
 )
 export const query = graphql`
   {
-    allDatoCmsArticle(sort: { fields: meta___publishedAt, order: DESC }) {
+    allDatoCmsArticle(sort: {fields: meta___createdAt, order: DESC}) {
       edges {
         node {
           chapeau
