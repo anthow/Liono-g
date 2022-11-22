@@ -73,7 +73,7 @@ export default function Rs() {
  text-sm
  my-6 py-2 px-4 hover:bg-gray-600 shadow-lg focus:outline-none focus:shadow-outline transform 
  transition hover:scale-105 duration-300 ease-in-out">
-            Prendre un RDV{" "}
+            Prendre un dRDV{" "}
           </button>
         </a>
 
