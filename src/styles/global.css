@@ -8,6 +8,9 @@ body {
 
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family:  Helvetica, sans-serif;
+}
 
 .blog h2 {
   font-size: 170%;
@@ -50,7 +53,6 @@ section.blog a {
 }
 
 p {
-  font-family: sans-serif;
   margin-bottom: 1em;
 }
 
