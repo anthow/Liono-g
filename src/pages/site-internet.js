@@ -76,9 +76,9 @@ const SitePage = () => (
 
     <article className="flex flex-col md:grid grid-cols-6">
       <section className="col-span-5 flex flex-col  py-10 ">
-        <h1 className="bg-third-color  text-white w-max text-4xl px-2">
+        <h2 className="bg-third-color  text-white w-max text-4xl px-2">
           Notre méthode
-        </h1>
+        </h2>
         <div className="flex flex-col items-center mt-5">
           <div class="container  mx-auto w-full h-full">
             <div class="relative  text-third-color wrap overflow-hidden p-10 h-full">
@@ -90,7 +90,7 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                  <h2 class="mx-auto font-semibold text-lg text-white">1</h2>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 ">
@@ -111,7 +111,7 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                  <h2 class="mx-auto text-white font-semibold text-lg">2</h2>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 ">
@@ -131,7 +131,7 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                  <h2 class="mx-auto font-semibold text-lg text-white">3</h2>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 ">
@@ -156,7 +156,7 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+                  <h2 class="mx-auto text-white font-semibold text-lg">4</h2>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 ">
@@ -174,7 +174,7 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto font-semibold text-lg text-white">5</h1>
+                  <h2 class="mx-auto font-semibold text-lg text-white">5</h2>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 ">
@@ -191,7 +191,7 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h1 class="mx-auto text-white font-semibold text-lg">6</h1>
+                  <h2 class="mx-auto text-white font-semibold text-lg">6</h2>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h3 className="text-white text-lg mb-2 "> Mise en ligne </h3>
