@@ -281,7 +281,7 @@ const SitePage = () => (
           <figure>
             <a href="https://svelte.dev/" rel="noreferrer" target="_blank">
 
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652257720/site%20Liono/svelte-logo_fvn3bb.png" />
+              <StaticImage alt="logo du framweork javascript Svelte" src="https://res.cloudinary.com/liono/image/upload/v1652257720/site%20Liono/svelte-logo_fvn3bb.png" />
             </a>
           </figure>
         </div>
@@ -325,7 +325,10 @@ const SitePage = () => (
           <figure>
             <a href="https://formspree.io/" rel="noreferrer" target="_blank">
 
-              <StaticImage src="https://res.cloudinary.com/liono/image/upload/v1652261625/site%20Liono/logo-algolia-nebula-blue-full_a6cns6.png" />
+              <StaticImage 
+              src="https://res.cloudinary.com/liono/image/upload/v1652261625/site%20Liono/logo-algolia-nebula-blue-full_a6cns6.png"
+              alt="Logo d'Algolia"
+              />
             </a>
           </figure>
           <figure>
