@@ -20,10 +20,10 @@ const SitePage = () => (
       <section className="col-span-6 siteinternet  py-60  ">
         {/*}<StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651614043/site%20Liono/pexels-format-1029757_q6b8pg.jpg"/>{*/}
         <div className=" flex flex-col m-auto content-center self-center items-center">
-          <h1 className="text-4xl bg-third-color text-white p-4">
+          <h2 className="text-4xl bg-third-color text-white p-4">
             Un site internet percutant et léger?
             <br /> C'est possible !
-          </h1>
+          </h2>
         </div>
       </section>
     </article>
@@ -32,10 +32,10 @@ const SitePage = () => (
       <div className=" flex flex-col md:grid grid-cols-2 gap-x-20 w-10/12 m-auto">
         <section className="flex flex-col text-center items-center gap-y-5">
           <FontAwesomeIcon icon={faLaptop} size="4x" className="" />
-          <h2 className="text-3xl bg-third-color text-white px-2">
+          <h3 className="text-3xl bg-third-color text-white px-2">
             {" "}
             Site interet{" "}
-          </h2>
+          </h3>
           <p>
             Créons le site internet qui permettra de mettre en valeur vôtre
             activité{" "}
@@ -50,7 +50,7 @@ const SitePage = () => (
             className=""
           />
 
-          <h2 className="text-3xl bg-third-color text-white px-2"> Eshop </h2>
+          <h3 className="text-3xl bg-third-color text-white px-2"> Eshop </h3>
           {/*}<div dangerouslySetInnerHTML={{ __html: data.datoCmsHomepage.texteFormationNumRique }} />{*/}
           <p>
             Créons la boutique en ligne nécessaire au développement de votre
@@ -60,10 +60,10 @@ const SitePage = () => (
 
         <section className="flex flex-col text-center items-center gap-y-5">
           <FontAwesomeIcon icon={faPeopleGroup} size="4x" className="" />
-          <h2 className="text-3xl bg-third-color text-white px-2">
+          <h3 className="text-3xl bg-third-color text-white px-2">
             {" "}
             Solution maison{" "}
-          </h2>
+          </h3>
           {/*}<div dangerouslySetInnerHTML={{ __html: data.datoCmsHomepage.texteAccompagnementNumRique }} />{*/}
           <p>
             Nous réalisons également les solutions maison qui permettront de
@@ -76,9 +76,9 @@ const SitePage = () => (
 
     <article className="flex flex-col md:grid grid-cols-6">
       <section className="col-span-5 flex flex-col  py-10 ">
-        <h2 className="bg-third-color  text-white w-max text-4xl px-2">
+        <h3 className="bg-third-color  text-white w-max text-4xl px-2">
           Notre méthode
-        </h2>
+        </h3>
         <div className="flex flex-col items-center mt-5">
           <div class="container  mx-auto w-full h-full">
             <div class="relative  text-third-color wrap overflow-hidden p-10 h-full">
@@ -90,13 +90,13 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto font-semibold text-lg text-white">1</h2>
+                  <h3 class="mx-auto font-semibold text-lg text-white">1</h3>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 ">
+                  <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Première rencontre
-                  </h3>
+                  </h4>
                   <p class="text-sm leading-snug tracking-wide  text-white  text-opacity-100">
                     Nous nous rencontrons pour parler de votre projet et vos
                     attentes. Cette rencontre est nécessaire, pour pouvoir de
@@ -111,13 +111,13 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto text-white font-semibold text-lg">2</h2>
+                  <h3 class="mx-auto text-white font-semibold text-lg">2</h3>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 ">
+                  <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Définition du projet
-                  </h3>
+                  </h4>
                   <p class="text-sm font-medium   text-opacity-100">
                     Nous travaillons ensuite pour définir votre correctement
                     votre interprétant avec divers outils ( Arborescence,
@@ -131,13 +131,13 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto font-semibold text-lg text-white">3</h2>
+                  <h3 class="mx-auto font-semibold text-lg text-white">3</h3>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 ">
+                  <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Redéfinition éco-pensée du projet
-                  </h3>
+                  </h4>
                   <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">
                     Pour cette étape, nous vous accompagnons pour analyser et
                     définir les interactivités réellement nécessaires pour le
@@ -156,13 +156,13 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto text-white font-semibold text-lg">4</h2>
+                  <h3 class="mx-auto text-white font-semibold text-lg">4</h3>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 ">
+                  <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Webdesign et structure du projet{" "}
-                  </h3>
+                  </h4>
                   <p class="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
                     Nous allons ensuite vous proposer un design pour votre
                     site/eshop/projet numérique, tout en codant en parallèle la
@@ -174,13 +174,13 @@ const SitePage = () => (
               <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
                 <div class="order-1  w-12/12 md:w-5/12"></div>
                 <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto font-semibold text-lg text-white">5</h2>
+                  <h3 class="mx-auto font-semibold text-lg text-white">5</h3>
                 </div>
                 <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 ">
+                  <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Développement du site.
-                  </h3>
+                  </h4>
                   <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">
                     C'est à ce stade que nous développons l'ensemble du site.
                   </p>
@@ -191,10 +191,10 @@ const SitePage = () => (
               <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
                 <div class="order-1 w-5/12"></div>
                 <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h2 class="mx-auto text-white font-semibold text-lg">6</h2>
+                  <h3 class="mx-auto text-white font-semibold text-lg">6</h3>
                 </div>
                 <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
-                  <h3 className="text-white text-lg mb-2 "> Mise en ligne </h3>
+                  <h4 className="text-white text-lg mb-2 "> Mise en ligne </h4>
                   <p class="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
                     Une fois le site validé par vos soins, nous le mettons en
                     ligne.
@@ -210,10 +210,10 @@ const SitePage = () => (
     {/*} partie quatre {*/}
 
     <article className="bg-primary-color flex flex-col gap-y-20 py-20">
-      <h2 className=" bg-third-color mt-10 text-white w-max text-4xl px-2">
+      <h3 className=" bg-third-color mt-10 text-white w-max text-4xl px-2">
         {" "}
         nos outils{" "}
-      </h2>
+      </h3>
       <section className="flex w-10/12 m-auto items-center m-auto content-center flex-col gap-40 md:grid grid-cols-2">
         <div className="grid grid-cols-2 gap-20 md:mt-20 items-center grid-rows-2 self-center  ">
           <figure>
@@ -239,9 +239,9 @@ const SitePage = () => (
           </figure>
         </div>
         <div className=" flex gap-y-10 flex-col ">
-          <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
+          <h4 className="text-3xl bg-third-color w-max text-left text-white px-2">
             CMS headless
-          </h3>
+          </h4>
           <div className="bg-white w-full p-10">
             <p>
               Un CMS est un outil qui va vous permettre d'encoder facilement
@@ -286,9 +286,9 @@ const SitePage = () => (
           </figure>
         </div>
         <div className=" flex gap-y-10 flex-col order-2 md:order-1 ">
-          <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
+          <h4 className="text-3xl bg-third-color w-max text-left text-white px-2">
             Générateur de site statique
-          </h3>
+          </h4>
           <div className="bg-white w-full p-10">
             <p>
               Le générateur de site statique est l'outil qui nous permet de
@@ -339,9 +339,9 @@ const SitePage = () => (
           </figure>
         </div>
         <div className=" flex gap-y-10 flex-col ">
-          <h3 className="text-3xl bg-third-color w-max text-left text-white px-2">
+          <h4 className="text-3xl bg-third-color w-max text-left text-white px-2">
             Les API{" "}
-          </h3>
+          </h4>
           <div className="bg-white w-full p-10">
             <p>
               Les Api sont des micros-services qui permettent l'implémentation
@@ -361,9 +361,9 @@ const SitePage = () => (
       <section className="col-span-6 data  py-60  ">
         {/*}<StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651614043/site%20Liono/pexels-format-1029757_q6b8pg.jpg"/>{*/}
         <div className=" flex flex-col m-auto content-center p-4 w-9/12 md:w-1/2 bg-third-color text-white w-max self-center items-center">
-          <h2 className="text-2xl bg-third-color mb-10 text-white ">
+          <h3 className="text-2xl bg-third-color mb-10 text-white ">
             Hébergement vert
-          </h2>
+          </h3>
           <p>
             {" "}
             Un web plus vert passe aussi par une gestion des datas centers plus
