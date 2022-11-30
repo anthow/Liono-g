@@ -12,7 +12,7 @@ export default function Rs() {
       <ul className="flex font-semibold w-3/12 md:w-11/12 flex-row items-center m-auto gap-2 ">
 
         <li>
-          <Link to="/#contact">
+          <Link rel="noreferrer" to="/#contact">
 
             {" "}
             <FontAwesomeIcon

@@ -31,7 +31,7 @@ const ProFormations = ({ data }) => (
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4  ">
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto  lg:mx-0  
                     bg-black  font-bold text-white 
                     text-lg
@@ -78,7 +78,7 @@ const ProFormations = ({ data }) => (
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4  ">
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto  lg:mx-0  
                     bg-black  font-bold text-white 
                     text-lg

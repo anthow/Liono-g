@@ -32,7 +32,7 @@ const Blog = ({ data }) => (
                   </div>
                 </div>
                 <p class="mb-5">{node.chapeau}</p>
-                <Link
+                <Link rel="noreferrer"
                   className="mx-auto  lg:mx-0  
                   bg-black  font-bold text-white 
                   text-lg

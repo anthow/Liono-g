@@ -25,7 +25,7 @@ const Formations = ({ data }) => (
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4 mt-2 mb-8">
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto lg:mx-0 w-max  bg-white  
                     font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
@@ -45,7 +45,7 @@ const Formations = ({ data }) => (
                   >
                     Inscription
                   </a>
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto lg:mx-0 w-max  bg-fift-color  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
                   >
@@ -84,7 +84,7 @@ const Formations = ({ data }) => (
                   }}
                 ></p>
                 <div class="flex items-center gap-x-4 mt-2 mb-8">
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto lg:mx-0 w-max  
                     bg-white  font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
                     to={node.slug}
@@ -103,7 +103,7 @@ const Formations = ({ data }) => (
                   >
                     Inscription
                   </a>
-                  <Link
+                  <Link rel="noreferrer"
                     className="mx-auto lg:mx-0 w-max
                       bg-fift-color  font-bold text-white rounded-full  
                       py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline 

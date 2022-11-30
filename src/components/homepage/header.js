@@ -1,5 +1,5 @@
 import { GatsbyImage } from "gatsby-plugin-image"
-
+import { Link } from "gatsby"
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -42,7 +42,7 @@ const Header = () => {
     </h2>
     <div dangerouslySetInnerHTML={{ __html: data.datoCmsHomepage.paragrapheHeader }} />
     
-    <a href="/#contact">
+    <Link rel="noreferrer" href="/#contact">
       <button class="mx-auto  lg:mx-0  
       bg-black  font-bold text-white 
       text-lg
@@ -50,7 +50,7 @@ const Header = () => {
       transition hover:scale-105 duration-300 ease-in-out">
         Parlons de votre projet{" "}
       </button>
-    </a>
+    </Link>
   </div>
     <div class="   md:p-20  bg-primary-color col-span-2  md:mr-10 order-1 md:order-2">
         <GatsbyImage image={data.datoCmsHomepage.imageHeaderDeux.gatsbyImageData}

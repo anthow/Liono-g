@@ -6,7 +6,7 @@ export default function Nav() {
     <header className=" p-10 flex  font-semibold  flex-col md:flex-row justify-between">
       <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
         <li>
-          <Link to="/site-internet">
+          <Link rel="noreferrer" to="/site-internet">
             <p
               className="
               py-4
@@ -23,7 +23,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/#engagement">
+          <Link rel="noreferrer" to="/#engagement">
             <p
               className="
               py-4
@@ -39,7 +39,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/#engagement">
+          <Link rel="noreferrer" to="/#engagement">
             <p
               className="
               py-4
@@ -55,7 +55,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/#contact">
+          <Link rel="noreferrer" to="/#contact">
             <p
               className="
               py-4
@@ -69,7 +69,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/blog">
+          <Link rel="noreferrer" to="/blog">
             <p
               className="
               py-4
