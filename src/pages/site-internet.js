@@ -21,7 +21,7 @@ const SitePage = () => (
         {/*}<StaticImage src="https://res.cloudinary.com/liono/image/upload/v1651614043/site%20Liono/pexels-format-1029757_q6b8pg.jpg"/>{*/}
         <div className=" flex flex-col m-auto content-center self-center items-center">
           <h2 className="text-4xl bg-third-color text-white p-4">
-            Un site internet percutant et léger?
+            Un site internet percutant et léger ?
             <br /> C'est possible !
           </h2>
         </div>
