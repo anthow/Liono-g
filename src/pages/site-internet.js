@@ -29,7 +29,7 @@ const SitePage = () => (
     </article>
     {/*} partie deux {*/}
     <article class=" w-12/12 py-20   bg-primary-color flex  ">
-      <div className=" flex flex-col md:grid grid-cols-2 gap-x-20 w-10/12 m-auto">
+      <div className=" flex flex-col md:grid grid-cols-3 gap-x-20 w-10/12 m-auto">
         <section className="flex flex-col text-center items-center gap-y-5">
           <FontAwesomeIcon icon={faLaptop} size="4x" className="" />
           <h3 className="text-3xl bg-third-color text-white px-2">
@@ -209,8 +209,8 @@ const SitePage = () => (
     </article>
     {/*} partie quatre {*/}
 
-    <article className="bg-primary-color flex flex-col gap-y-20 py-20">
-      <h3 className=" bg-third-color mt-10 text-white w-max text-4xl px-2">
+    <article className="bg-primary-color flex flex-col gap-y-10 py-20">
+      <h3 className=" bg-third-color  text-white w-max text-4xl px-2">
         {" "}
         nos outils{" "}
       </h3>

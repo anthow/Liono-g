@@ -36,12 +36,12 @@ const Contact = () => {
     className="bg-primary-color p-10">
   <fieldset id="fs-frm-inputs" className="flex flex-col">
     <label  htmlFor="full-name" className="">Nom</label>
-    <input type="text" name="name" id="full-name" 
-     className="border mb-2 w-max" required=""/>
+    <input type="text"  name="name" id="full-name" 
+     className="border mb-2 w-full" required=""/>
     <label htmlFor="email-address">Adresse mail</label>
-    <input type="email" name="_replyto" id="email-address"  className="border mb-2 w-max" required=""/>
+    <input type="email" name="_replyto" id="email-address"  className="border mb-2 w-full" required=""/>
     <label htmlFor="message">Message</label>
-    <textarea rows="5" name="message" id="message" className="border mb-2"  required=""></textarea>
+    <textarea rows="7" name="message" id="message" className="border mb-2"  required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
   </fieldset>
   <input type="submit" className="mx-auto  lg:mx-0  

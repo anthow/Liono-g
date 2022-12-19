@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className=" px-4 w-12/12   m-auto flex justify-between items-center">
       <Link rel="noreferrer" to="/">
         <article className="flex   flex-col gap-x-10 ">
-          <h1 className="text-5xl bg-fourth-color w-min p-2 text-white title font-black">Liono</h1>
+          <h1 className="text-5xl bg-fourth-color text-center p-2 text-white title font-black">Liono</h1>
           <h2 className=" italic  title text-xs">Agence numérique reponsable</h2>
         </article>
         </Link>
