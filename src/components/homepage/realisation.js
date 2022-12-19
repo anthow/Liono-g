@@ -22,8 +22,8 @@ const Realisation = () => {
   }
   `)
   return <article class=" w-12/12  py-20 bg-secondary-color ">
-      <section className="flex flex-col gap-y-10">
-     <h2 className="text-3xl bg-primary-color  text-white w-max px-2">
+      <section className="flex flex-col w gap-y-10">
+     <h2 className="text-3xl bg-primary-color  text-white w-full md:w-max px-2">
           Nos Dernières réalisations 
         </h2>
         <div className="w-10/12 m-auto flex flex-col gap-y-10 md:gap-20 md:grid grid-cols-2 auto-rows-max">

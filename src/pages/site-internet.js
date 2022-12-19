@@ -286,7 +286,7 @@ const SitePage = () => (
           </figure>
         </div>
         <div className=" flex gap-y-10 flex-col order-2 md:order-1 ">
-          <h4 className="text-3xl bg-third-color w-max text-left text-white px-2">
+          <h4 className="text-3xl bg-third-color w-full md:w-max text-left text-white px-2">
             Générateur de site statique
           </h4>
           <div className="bg-white w-full p-10">
