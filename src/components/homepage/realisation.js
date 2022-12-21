@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Realisation = () => {
   const data = useStaticQuery(graphql`
    {
-    allDatoCmsRealisation(limit: 4, sort: {order: DESC, fields: meta___publishedAt}) {
+    allDatoCmsRealisation(limit: 4, sort: {fields: originalId, order: ASC}) {
       edges {
         node {
           url
@@ -14,7 +14,6 @@ const Realisation = () => {
           image {
             alt
             gatsbyImageData(aspectRatio: 1.8)
- 
           }
         }
       }
