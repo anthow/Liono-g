@@ -15,6 +15,7 @@ export default function Nav() {
               hover:text-gray-600
               transition
               duration-300
+              text-center
               "
               
             >
@@ -32,7 +33,9 @@ export default function Nav() {
               hover:text-gray-600
               transition
               hidden
-              duration-300"
+              duration-300
+              text-center
+              "
             >
               Formations numérique 
             </p>
