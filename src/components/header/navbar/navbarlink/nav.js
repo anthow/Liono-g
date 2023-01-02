@@ -39,7 +39,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link rel="noreferrer" to="/#engagement">
+          <Link rel="noreferrer" to="/accompagnement">
             <p
               className="
               py-4
@@ -47,10 +47,10 @@ export default function Nav() {
               text-black
               hover:text-gray-600
               transition
-              hidden
+              
               duration-300"
             >
-              accompagnement numérique 
+              accompagnement digtal 
             </p>
           </Link>
         </li>
