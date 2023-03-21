@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         <main className="">{children}</main>
 
 <Footer />  
-<CookieConsent
+{/*}<CookieConsent
       location="bottom"
       buttonText="J'accepte"
       declineButtonText="Je refuse"
@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
       expires={150}
     >
       Ce site utilise des cookies pour améliorer votre expérience utilisateur.
-    </CookieConsent>
+  </CookieConsent>{*/}
 <script async defer src="https://scripts.withcabin.com/hello.js"></script>   
     </body>
   )
