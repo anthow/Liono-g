@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header/header"
 import Footer from "./footer"
+import Cookie from "./cookiesBanner"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,6 +30,8 @@ const Layout = ({ children }) => {
         <main className="">{children}</main>
 
 <Footer />  
+<Cookie/>
+
 <script async defer src="https://scripts.withcabin.com/hello.js"></script>   
     </body>
   )
