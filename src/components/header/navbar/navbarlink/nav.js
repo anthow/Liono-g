@@ -9,14 +9,12 @@ import { Link } from "gatsby"
 
 export default function Nav() {
   return (
-    <nav className="    font-semibold ">
-      <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
+    <ul className=" md:pt-4 flex flex-col gap-x-4 m-auto items-center md:flex-row   font-semibold ">
         <li>
           <Link rel="noreferrer" to="/site-internet">
             <p
               className="
-              py-4
-              px-2
+               
               text-black
               hover:text-gray-600
               transition
@@ -33,8 +31,7 @@ export default function Nav() {
           <Link rel="noreferrer" to="/#engagement">
             <p
               className="
-              py-4
-              px-2
+               
               text-black
               hover:text-gray-600
               transition
@@ -51,8 +48,7 @@ export default function Nav() {
           <Link rel="noreferrer" to="/accompagnement">
             <p
               className="
-              py-4
-              px-2
+               
               text-black
               hover:text-gray-600
               transition
@@ -67,8 +63,7 @@ export default function Nav() {
           <Link rel="noreferrer" to="/#contact">
             <p
               className="
-              py-4
-              px-2
+               
               transition
               hover:text-gray-600
               duration-300"
@@ -81,8 +76,7 @@ export default function Nav() {
           <Link rel="noreferrer" to="/blog">
             <p
               className="
-              py-4
-              px-2
+               
               text-black
               hover:text-gray-600
               transition
@@ -96,7 +90,6 @@ export default function Nav() {
         </li>
         <li>
         </li>
-      </ul>
-    </nav>
+    </ul>
   )
 }
