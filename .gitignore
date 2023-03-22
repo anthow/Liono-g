@@ -69,3 +69,4 @@ yarn-error.log
 .yarn-integrity
 src/pages/accompagnement-digital.js
 src/pages/formations.js
+src/pages/event.js

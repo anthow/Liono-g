@@ -1,9 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
+
+
+
+
+
 export default function Nav() {
   return (
-    <header className=" p-10 flex  font-semibold  flex-col md:flex-row justify-between">
+    <nav className="    font-semibold ">
       <ul className="flex flex-col gap-x-4 m-auto items-center md:flex-row">
         <li>
           <Link rel="noreferrer" to="/site-internet">
@@ -37,7 +43,7 @@ export default function Nav() {
               text-center
               "
             >
-              Formations numérique 
+              Formations numériques 
             </p>
           </Link>
         </li>
@@ -53,7 +59,7 @@ export default function Nav() {
               
               duration-300"
             >
-              accompagnement digtal 
+              accompagnement digital 
             </p>
           </Link>
         </li>
@@ -91,6 +97,6 @@ export default function Nav() {
         <li>
         </li>
       </ul>
-    </header>
+    </nav>
   )
 }
