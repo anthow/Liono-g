@@ -13,7 +13,7 @@ const BlogPost = ({ data }) => (
         description={data.datoCmsArticle.seo.description}
       />
       <main className="w-12/12 bg-secondary-color ">
-      <div class="w-10/12 m-auto pt-5 bg-white px-2 articles md:px-10 pb-20  flex flex-col">
+      <div className="w-10/12 m-auto pt-5 bg-white px-2 articles md:px-10 pb-20  flex flex-col">
         <figure className="mb-5">
           <GatsbyImage
             image={data.datoCmsArticle.imageCover.gatsbyImageData}
@@ -24,13 +24,13 @@ const BlogPost = ({ data }) => (
           <h2 className=" text-3xl md:text-4xl break-words text-liono-blue mb-5">
             {data.datoCmsArticle.titre}{" "}
           </h2>
-          <div class="flex items-center  gap-x-2 mt-2 ">
+          <div className="flex items-center  gap-x-2 mt-2 ">
             <GatsbyImage
               image={data.datoCmsArticle.auteur.image.gatsbyImageData}
               alt={data.datoCmsArticle.auteur.image.alt}
             />
             <section className="flex flex-col">
-              <div class="italic">
+              <div className="italic">
                 Article rédigé le {data.datoCmsArticle.meta.firstPublishedAt}{" "}
                 par {data.datoCmsArticle.auteur.nom}
               </div>

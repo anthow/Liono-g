@@ -8,8 +8,8 @@ const Blog = ({ data }) => (
     <Seo title="Tout les articles - Liono l'agence numérique responsable à Liège"
     description="partie blog du site Liono l'agence numérique responsable à Liège" />
 
-    <main class="w-12/12 bg-secondary-color m-auto pb-20">
-      <article class="flex flex-col w-11/12 md:w-10/12 m-auto pb-10 bg-white p-1 md:p-10 md:grid grid-cols-2 gap-y-10 md:gap-y-20 gap-x-10">
+    <main className="w-12/12 bg-secondary-color m-auto pb-20">
+      <article className="flex flex-col w-11/12 md:w-10/12 m-auto pb-10 bg-white p-1 md:p-10 md:grid grid-cols-2 gap-y-10 md:gap-y-20 gap-x-10">
         {data.allDatoCmsArticle.edges.map(({ node }, i) =>
             <>
             
@@ -21,17 +21,17 @@ const Blog = ({ data }) => (
               </figure>
               <div>
               <h2 className="text-2xl bg-third-color break-words text-white w-full p-2 ">{node.titre} </h2>
-                <div class="flex items-center gap-x-2 mt-2 mb-10">
+                <div className="flex items-center gap-x-2 mt-2 mb-10">
                   <GatsbyImage
                     image={node.auteur.image.gatsbyImageData}
                     alt={node.auteur.image.alt}
                   />
-                  <div class="italic">
+                  <div className="italic">
                     Article rédigé le {node.meta.firstPublishedAt} par{" "}
                     {node.auteur.nom}
                   </div>
                 </div>
-                <p class="mb-5">{node.chapeau}</p>
+                <p className="mb-5">{node.chapeau}</p>
                 <Link rel="noreferrer"
                   className="mx-auto  lg:mx-0  
                   bg-black  font-bold text-white 

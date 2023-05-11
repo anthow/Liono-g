@@ -28,7 +28,7 @@ const SitePage = () => (
       </section>
     </article>
     {/*} partie deux {*/}
-    <article class=" w-12/12 py-20   bg-primary-color flex  ">
+    <article className=" w-12/12 py-20   bg-primary-color flex  ">
       <div className=" flex flex-col md:grid grid-cols-3 gap-x-20 w-10/12 m-auto">
         <section className="flex flex-col text-center items-center gap-y-5">
           <FontAwesomeIcon icon={faLaptop} size="4x" className="" />
@@ -80,24 +80,24 @@ const SitePage = () => (
           Notre méthode
         </h3>
         <div className="flex flex-col items-center mt-5">
-          <div class="container  mx-auto w-full h-full">
-            <div class="relative  text-third-color wrap overflow-hidden p-10 h-full">
+          <div className="container  mx-auto w-full h-full">
+            <div className="relative  text-third-color wrap overflow-hidden p-10 h-full">
               <div
-                class="border-2-2 absolute  timeline border-opacity-20 border-gray-700 h-full border"
+                className="border-2-2 absolute  timeline border-opacity-20 border-gray-700 h-full border"
                 styles="left: 50%"
               ></div>
               {/* right timeline */}
-              <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
-                <div class="order-1  w-12/12 md:w-5/12"></div>
-                <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto font-semibold text-lg text-white">1</h3>
+              <div className="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
+                <div className="order-1  w-12/12 md:w-5/12"></div>
+                <div className="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto font-semibold text-lg text-white">1</h3>
                 </div>
-                <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
+                <div className="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Première rencontre
                   </h4>
-                  <p class="text-sm leading-snug tracking-wide  text-white  text-opacity-100">
+                  <p className="text-sm leading-snug tracking-wide  text-white  text-opacity-100">
                     Nous nous rencontrons pour parler de votre projet et vos
                     attentes. Cette rencontre est nécessaire, pour pouvoir de
                     notre côté comprendre les besoins et les ambitions derrière
@@ -108,17 +108,17 @@ const SitePage = () => (
               </div>
 
               {/* left timeline */}
-              <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto text-white font-semibold text-lg">2</h3>
+              <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+                <div className="order-1 w-5/12"></div>
+                <div className="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto text-white font-semibold text-lg">2</h3>
                 </div>
-                <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div className="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Définition du projet
                   </h4>
-                  <p class="text-sm font-medium   text-opacity-100">
+                  <p className="text-sm font-medium   text-opacity-100">
                     Nous travaillons ensuite pour définir votre correctement
                     votre interprétant avec divers outils ( Arborescence,
                     Wireframe, structure de l'information... ) les besoins et
@@ -128,17 +128,17 @@ const SitePage = () => (
               </div>
 
               {/* right timeline */}
-              <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
-                <div class="order-1  w-12/12 md:w-5/12"></div>
-                <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto font-semibold text-lg text-white">3</h3>
+              <div className="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
+                <div className="order-1  w-12/12 md:w-5/12"></div>
+                <div className="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto font-semibold text-lg text-white">3</h3>
                 </div>
-                <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
+                <div className="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Redéfinition éco-pensée du projet
                   </h4>
-                  <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">
+                  <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
                     Pour cette étape, nous vous accompagnons pour analyser et
                     définir les interactivités réellement nécessaires pour le
                     bon fonctionnement du site et de votre stratégie, c'est à
@@ -153,17 +153,17 @@ const SitePage = () => (
               </div>
 
               {/*left timeline */}
-              <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto text-white font-semibold text-lg">4</h3>
+              <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+                <div className="order-1 w-5/12"></div>
+                <div className="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto text-white font-semibold text-lg">4</h3>
                 </div>
-                <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div className="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Webdesign et structure du projet{" "}
                   </h4>
-                  <p class="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
+                  <p className="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
                     Nous allons ensuite vous proposer un design pour votre
                     site/eshop/projet numérique, tout en codant en parallèle la
                     structure du site.
@@ -171,31 +171,31 @@ const SitePage = () => (
                 </div>
               </div>
               {/* right timeline */}
-              <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
-                <div class="order-1  w-12/12 md:w-5/12"></div>
-                <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto font-semibold text-lg text-white">5</h3>
+              <div className="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
+                <div className="order-1  w-12/12 md:w-5/12"></div>
+                <div className="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto font-semibold text-lg text-white">5</h3>
                 </div>
-                <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
+                <div className="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Développement du site.
                   </h4>
-                  <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">
+                  <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
                     C'est à ce stade que nous développons l'ensemble du site.
                   </p>
                 </div>
               </div>
 
               {/*left timeline */}
-              <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto text-white font-semibold text-lg">6</h3>
+              <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+                <div className="order-1 w-5/12"></div>
+                <div className="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto text-white font-semibold text-lg">6</h3>
                 </div>
-                <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div className="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 "> Mise en ligne </h4>
-                  <p class="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
+                  <p className="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
                     Une fois le site validé par vos soins, nous le mettons en
                     ligne.
                   </p>

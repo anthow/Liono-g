@@ -28,14 +28,13 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link rel="noreferrer" to="/#engagement">
+          <Link rel="noreferrer" to="/formations">
             <p
               className="
                
               text-black
               hover:text-gray-600
               transition
-              hidden
               duration-300
               text-center
               "

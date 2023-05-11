@@ -20,7 +20,7 @@ const Realisation = () => {
     }
   }
   `)
-  return <article class=" w-12/12  py-20 bg-secondary-color ">
+  return <article className=" w-12/12  py-20 bg-secondary-color ">
       <section className="flex flex-col w gap-y-10">
      <h2 className="text-3xl bg-primary-color  text-white w-full md:w-max px-2">
           Nos Dernières réalisations 
@@ -29,11 +29,11 @@ const Realisation = () => {
         {data.allDatoCmsRealisation.edges.map(({ node }) => {
             return (
               <a href={node.url} target="_blank" rel="noreferrer" >
-              <div class="container">
+              <div className="container">
     
               <GatsbyImage image={node.image.gatsbyImageData} alt={node.image.alt} />
-               <div class="overlay">
-        <div class="text"><h3 className=" bg-third-color px-2 text-white text-3xl font-semibold">{node.titre}</h3></div>
+               <div className="overlay">
+        <div className="text"><h3 className=" bg-third-color px-2 text-white text-3xl font-semibold">{node.titre}</h3></div>
       </div>
               </div></a>
             )

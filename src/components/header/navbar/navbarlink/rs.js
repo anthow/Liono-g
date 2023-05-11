@@ -26,7 +26,7 @@ export default function Rs() {
             href="https://www.facebook.com/Liono-106603081895565"
             target="_blank"
             without rel="noreferrer"
-            class="py-2 px-2 hover:opacity-50" >
+            className="py-2 px-2 hover:opacity-50" >
             {" "}
             <FontAwesomeIcon
               className="text-m "
@@ -39,7 +39,7 @@ export default function Rs() {
             href="https://www.instagram.com/liono.be/"
             target="_blank"
             without rel="noreferrer"
-            class="py-2 px-2 hover:opacity-50"
+            className="py-2 px-2 hover:opacity-50"
           >
             {" "}
             <FontAwesomeIcon
@@ -54,7 +54,7 @@ export default function Rs() {
         </li>
         <li className="hidden md:block">
           <a href="https://tidycal.com/liono/entretien-decouverte-de-30-min" target="_blank" rel="noreferrer" >
-            <button class="mx-auto  lg:mx-0  
+            <button className="mx-auto  lg:mx-0  
       bg-black  font-bold text-white 
       text-sm
       my-6 py-2 px-4 hover:bg-gray-600 shadow-lg focus:outline-none focus:shadow-outline transform 
@@ -68,7 +68,7 @@ export default function Rs() {
 
       <div className=" md:hidden">
         <a href="https://tidycal.com/liono/entretien-decouverte-de-30-min" target="_blank" rel="noreferrer" >
-          <button class="mx-auto  lg:mx-0  
+          <button className="mx-auto  lg:mx-0  
  bg-black  font-bold text-white 
  text-sm
  my-6 py-2 px-4 hover:bg-gray-600 shadow-lg focus:outline-none focus:shadow-outline transform 

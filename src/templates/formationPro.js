@@ -10,10 +10,10 @@ const formation = ({ data }) => (
       title= {data.datoCmsFormationPro.seo.title}
       description={data.datoCmsFormationPro.seo.description}
     />    <Layout>
-      <article class=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
+      <article className=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
         <section className="  md:w-12/12 py-4 gap-y-5 md:py-0 m-auto bg-primary-color md:items-center md:pl-10  flex flex-col  lg:grid grid-cols-3 ">
           {/*}
-  <div class=" w-5/12 h-min bg-fourth-color self-end pt-32 hidden md:block">
+  <div className=" w-5/12 h-min bg-fourth-color self-end pt-32 hidden md:block">
       <GatsbyImage image={data.datoCmsFormationPro.imageHeaderUn.gatsbyImageData}
        alt={data.datoCmsFormationPro.imageHeaderUn.alt}
        loading="lazy"
@@ -23,10 +23,10 @@ const formation = ({ data }) => (
     </div>
   {*/}
           <div
-            class="flex m-2 md:py-0 bg-white  flex-col col-span-1 h-min     p-4  
+            className="flex m-2 md:py-0 bg-white  flex-col col-span-1 h-min     p-4  
     justify-center md:items-start  order-2 md:order-1"
           >
-            <h2 class=" w-12/12 m-auto text-center text-third-color pt-2 font-bold title text-3xl mb-8">
+            <h2 className=" w-12/12 m-auto text-center text-third-color pt-2 font-bold title text-3xl mb-8">
               {data.datoCmsFormationPro.titreFormation}
             </h2>
             <div
@@ -35,7 +35,7 @@ const formation = ({ data }) => (
               }}
             />
           </div>
-          <div class="   md:p-20  bg-primary-color col-span-2  md:mr-10 order-1 md:order-2">
+          <div className="   md:p-20  bg-primary-color col-span-2  md:mr-10 order-1 md:order-2">
             <GatsbyImage
               image={data.datoCmsFormationPro.imageFormation.gatsbyImageData}
               className="w-full"
@@ -45,7 +45,7 @@ const formation = ({ data }) => (
           </div>
         </section>
       </article>
-      <article class=" w-12/12 py-20   bg-secondary-color flex  ">
+      <article className=" w-12/12 py-20   bg-secondary-color flex  ">
         <div className=" flex flex-col md:grid grid-cols-3 gap-x-20 w-10/12 m-auto">
           <section className="flex flex-col mb-10 text-center items-center gap-y-5 col-span-3">
             <h2 className="text-3xl bg-third-color text-white px-2">
@@ -85,7 +85,7 @@ const formation = ({ data }) => (
           </section>
         </div>
       </article>
-      <article class=" w-12/12 s  md:grid gap-x-20 grid-cols-4  ">
+      <article className=" w-12/12 s  md:grid gap-x-20 grid-cols-4  ">
         <section className="bg-secondary-color col-span-1 hidden md:block"></section>
         <section className="col-span-3 py-20 flex flex-col gap-y-10">
           <h2 className="text-3xl bg-third-color text-white w-max px-2">
@@ -99,7 +99,7 @@ const formation = ({ data }) => (
           />
         </section>
       </article>
-      <article class=" w-12/12  py-20 bg-primary-color ">
+      <article className=" w-12/12  py-20 bg-primary-color ">
         <section className="flex flex-col gap-y-10">
           <h2 className="text-3xl bg-third-color  text-white w-max px-2">
             Programme{" "}

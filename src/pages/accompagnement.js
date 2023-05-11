@@ -24,7 +24,7 @@ const SitePage = () => (
       </section>
     </article>
     {/*} partie deux 
-    <article class=" w-12/12 py-20   bg-primary-color flex  ">
+    <article className=" w-12/12 py-20   bg-primary-color flex  ">
       <div className="  p-2 text-center font-bold flex flex-col  bg-third-color text-white  w-10/12 m-auto">
         <p>
           Vous ne savez pas comment mettre en place les outils numériques
@@ -41,7 +41,7 @@ const SitePage = () => (
       </div>
     </article>{*/}
     {/*} partie trois {*/}
-    <article class=" w-12/12 py-10 hidden md:block  bg-primary-color flex  ">
+    <article className=" w-12/12 py-10 hidden md:block  bg-primary-color flex  ">
 </article>
 
     <article className="flex flex-col md:grid grid-cols-6">
@@ -50,21 +50,21 @@ const SitePage = () => (
           Notre méthode
         </h3>
         <div className="flex flex-col items-center mt-5">
-          <div class="container  mx-auto w-full h-full">
-            <div class="relative  text-third-color wrap overflow-hidden p-10 h-full">
+          <div className="container  mx-auto w-full h-full">
+            <div className="relative  text-third-color wrap overflow-hidden p-10 h-full">
               <div
-                class="border-2-2 absolute  timeline border-opacity-20 border-gray-700 h-full border"
+                className="border-2-2 absolute  timeline border-opacity-20 border-gray-700 h-full border"
                 styles="left: 50%"
               ></div>
               {/* right timeline */}
-              <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
-                <div class="order-1  w-12/12 md:w-5/12"></div>
-                <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto font-semibold text-lg text-white">1</h3>
+              <div className="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
+                <div className="order-1  w-12/12 md:w-5/12"></div>
+                <div className="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto font-semibold text-lg text-white">1</h3>
                 </div>
-                <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
+                <div className="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 "> Audit numérique</h4>
-                  <p class="text-sm leading-snug tracking-wide  text-white  text-opacity-100">
+                  <p className="text-sm leading-snug tracking-wide  text-white  text-opacity-100">
                     suite à une première rencontre où nous découvrons votre
                     projet et vos objectifs, Nous analysons les outils et les
                     stratégies que vous avez déjà mis en place. Nous vérifions
@@ -75,17 +75,17 @@ const SitePage = () => (
               </div>
 
               {/* left timeline */}
-              <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto text-white font-semibold text-lg">2</h3>
+              <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+                <div className="order-1 w-5/12"></div>
+                <div className="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto text-white font-semibold text-lg">2</h3>
                 </div>
-                <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div className="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Définition de la stratégie
                   </h4>
-                  <p class="text-sm font-medium   text-opacity-100">
+                  <p className="text-sm font-medium   text-opacity-100">
                     Après cet audit,
                     <br />
                     nous vous proposons un plan d’action qui permettra de mettre
@@ -111,17 +111,17 @@ const SitePage = () => (
               </div>
 
               {/* right timeline */}
-              <div class="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
-                <div class="order-1  w-12/12 md:w-5/12"></div>
-                <div class="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto font-semibold text-lg text-white">3</h3>
+              <div className="my-8  flex flex-col md:flex-row justify-between  items-center w-full md:right-timeline">
+                <div className="order-1  w-12/12 md:w-5/12"></div>
+                <div className="z-20 flex mb-5 md:mb-0  items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto font-semibold text-lg text-white">3</h3>
                 </div>
-                <div class="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
+                <div className="order-1 text-third-color z-20 rounded-lg shadow-xl bg-third-color md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Création
                                       </h4>
-                  <p class="text-sm leading-snug tracking-wide text-white text-opacity-100">
+                  <p className="text-sm leading-snug tracking-wide text-white text-opacity-100">
                   Pour cette étape, nous passons à l’action. De notre côté nous développons les outils décidés à l’étape précédente, la mise en place de gabarit vous permettant un maximum d’autonomie et le suivi des prestations réalisées par des intervenants extérieurs. De votre côté, vous commencez à mettre en place les stratégies proposées avec notre soutien.
 
                   </p>
@@ -129,16 +129,16 @@ const SitePage = () => (
               </div>
 
               {/*left timeline */}
-              <div class="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
-                  <h3 class="mx-auto text-white font-semibold text-lg">4</h3>
+              <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+                <div className="order-1 w-5/12"></div>
+                <div className="z-20 flex mb-10 md:mb-0 items-center order-1 bg-primary-color shadow-xl w-8 h-8 rounded-full">
+                  <h3 className="mx-auto text-white font-semibold text-lg">4</h3>
                 </div>
-                <div class="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
+                <div className="order-1 color bg-third-color shadow-xl rounded-lg z-20 text-white w-12/12 md:w-5/12 px-6 py-4">
                   <h4 className="text-white text-lg mb-2 ">
                     {" "}
                     Suivi                   </h4>
-                  <p class="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
+                  <p className="text-sm font-medium leading-snug text-white tracking-wide text-opacity-100">
                   Il est très important d’évaluer de manière régulière le travail effectué et ajuster les stratégies en fonction des résultats, grâce aux indicateurs définis précédemment, nous prenons le temps de les évaluer périodiquement et appliquer les changements nécessaires
 .
                   </p>

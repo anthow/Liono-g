@@ -22,7 +22,7 @@ const Icon = () => {
     }
   }
   `)
-  return <article class=" w-12/12 py-20   bg-secondary-color flex  ">
+  return <article className=" w-12/12 py-20   bg-secondary-color flex  ">
       <div className=" flex flex-col md:grid grid-cols-3 gap-x-20 w-10/12 m-auto">
       <section className="flex flex-col text-center items-center gap-y-5">
       <FontAwesomeIcon icon={faLaptop} size="4x" className="" />          

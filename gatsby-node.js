@@ -3,7 +3,6 @@ const path = require('path');
 exports.createPages = ({ actions, graphql }) => {
 	const { createPage } = actions;
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
-  	const FormationTemplate = path.resolve('./src/templates/formation.js');
 	  const FormationProTemplate = path.resolve('./src/templates/formationPro.js');
 
 	// Individual blogs pages
@@ -36,33 +35,7 @@ exports.createPages = ({ actions, graphql }) => {
 		});
 	});
 
-	// Formations
-	const actu = graphql(`
-		{
-			allDatoCmsFormation {
-        edges {
-          node  {
-					slug
-					id
-          }
-        }
-      }
-    }
-    
-	`).then(result => {
-		if (result.errors) {
-			Promise.reject(result.errors);
-		}
-
-		// Create atelier pages
-		result.data.allDatoCmsFormation.edges.forEach(({ node }) => {
-			createPage({
-        path: `formations/${node.slug}`,
-				component: FormationTemplate,
-        context: {slug: node.slug},
-			});
-		});
-	});
+	
 // Individual Formation Pro
 const FormationPro = graphql(`
 {
@@ -96,5 +69,5 @@ const FormationPro = graphql(`
 
 
 	// Return a Promise which would wait for both the queries to resolve
-	return Promise.all([product, actu,FormationPro]);
+	return Promise.all([product,FormationPro]);
 };

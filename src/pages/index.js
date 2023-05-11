@@ -3,9 +3,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Header from "../components/homepage/header"
 import Icon from "../components/homepage/icon"
-import Formation from "../components/homepage/formation"
 import Realisation from "../components/homepage/realisation"
 import Contact from "../components/homepage/contact"
+import Event from "../components/homepage/event"
 
 const IndexPage = () => (
   <Layout>
@@ -15,8 +15,7 @@ const IndexPage = () => (
     />
     <Header/>
     <Icon/>
-
-<Formation />
+<Event />
 <Realisation />
 <Contact />
   </Layout>

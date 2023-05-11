@@ -8,11 +8,11 @@ const ProFormations = ({ data }) => (
   <Layout>
     <Seo title="formations numériques eco-responsables" />
 
-    <main class="w-12/12 m-auto ">
+    <main className="w-12/12 m-auto ">
       {data.allDatoCmsFormationPro.edges.map(({ node }, i) =>
         i % 2 ? (
           <>
-             <article class=" w-12/12 bg-primary-color flex flex-col  md:grid  grid-cols-7  ">
+             <article className=" w-12/12 bg-primary-color flex flex-col  md:grid  grid-cols-7  ">
     <section className="md:col-span-6 bg-primary-color  flex flex-col  md:grid grid-cols-2  ">
     <figure className=" h-full order-1 md:order-2">
                 <GatsbyImage
@@ -30,7 +30,7 @@ const ProFormations = ({ data }) => (
                     __html: node.introduction,
                   }}
                 ></p>
-                <div class="flex items-center gap-x-4  ">
+                <div className="flex items-center gap-x-4  ">
                   <Link rel="noreferrer"
                     className="mx-auto  lg:mx-0  
                     bg-black  font-bold text-white 
@@ -58,7 +58,7 @@ const ProFormations = ({ data }) => (
           </>
         ) : (
           <>
-    <article class=" w-12/12 bg-secondary-color flex flex-col  md:grid  grid-cols-7  ">
+    <article className=" w-12/12 bg-secondary-color flex flex-col  md:grid  grid-cols-7  ">
     <section className="bg-primary-color col-span-1 hidden md:block"></section>
     <section className="col-span-6 bg-secondary-color flex flex-col md:grid grid-cols-2  gap-y-10">
 
@@ -77,7 +77,7 @@ const ProFormations = ({ data }) => (
                     __html: node.introduction,
                   }}
                 ></p>
-                <div class="flex items-center gap-x-4  ">
+                <div className="flex items-center gap-x-4  ">
                   <Link rel="noreferrer"
                     className="mx-auto  lg:mx-0  
                     bg-black  font-bold text-white 

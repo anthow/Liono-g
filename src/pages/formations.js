@@ -3,157 +3,112 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import { GatsbyImage } from "gatsby-plugin-image"
 import Seo from "../components/seo"
-const Formations = ({ data }) => (
-  <Layout>
-    <Seo title="formations numériques eco-responsables" />
+const Formations = ({ data }) => {
+  const bgimage = {
+    backgroundImage:
+      "url(" +
+      data.datoCmsPageNouvelleFormation.illustrationPage.fluid.src +
+      ")",
+  }
+  return (
+    <Layout>
+      <Seo title="formations numériques eco-responsables" />
+      <article className=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
+        <section
+          style={bgimage}
+          className="  md:w-12/12 py-4 gap-y-5 md:py-20 m-auto  md:items-center md:pl-10  flex flex-col  lg:grid grid-cols-2 "
+        >
+          {/*}
+  <div className=" w-5/12 h-min bg-fourth-color self-end pt-32 hidden md:block">
+      <GatsbyImage image={data.datoCmsHomepage.imageHeaderUn.gatsbyImageData}
+       alt={data.datoCmsHomepage.imageHeaderUn.alt}
+       loading="lazy"
+       className="w-full"
+       />
 
-    <main class="w-12/12 m-auto ">
-      {data.allDatoCmsFormation.edges.map(({ node }, i) =>
-        i % 2 ? (
-          <>
-            <article class="w-12/12 bg-third-color p-5 md:p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
-              <div className="order-2 md:order-1">
-                <h2 className=" text-2xl md:text-4xl text-white ">{node.titreFormation} </h2>
-                <h3 className="my-5 text-xl text-white">
-                  {" "}
-                  {node.sousTitreFormation}
-                </h3>
-                <p
-                  className=" "
-                  dangerouslySetInnerHTML={{
-                    __html: node.texteIntroductif,
-                  }}
-                ></p>
-                <div class="flex items-center flex-col md:flex-row gap-4 mt-2 mb-8">
-                  <Link rel="noreferrer"
-                    className="mx-auto lg:mx-0 w-max  bg-white  
-                    font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                    to={node.slug}
-                  >
-                    {" "}
-                    En savoir plus
-                  </Link>
+    </div>
+  {*/}
+          <div
+            className="flex m-2  bg-white  flex-col col-span-1 h-min     p-4  
+    justify-center md:items-start  order-2 md:order-1 text-center "
+          >
+            <h2 className=" w-12/12 m-auto text-center text-third-color pt-2 font-bold title text-2xl mb-8">
+              {data.datoCmsPageNouvelleFormation.titreDeLaPage}
+            </h2>
+            <div
+              className="paraphcenter text-center"
+              dangerouslySetInnerHTML={{
+                __html: data.datoCmsPageNouvelleFormation.textePage,
+              }}
+            />
+          </div>
+        </section>
+      </article>
+      <article className=" w-12/12  py-20 bg-secondary-color ">
+        <section className="flex flex-col w gap-y-10">
+          <h2 className="text-3xl bg-primary-color  text-white w-full md:w-max px-2">
+            Nos Formations
+          </h2>
+          <div className="w-10/12 m-auto flex flex-col gap-y-10 md:gap-20 md:grid grid-cols-2 auto-rows-max">
+            {data.allDatoCmsListeModuleFormation.edges.map(({ node }) => {
+              return (
+                <div className=" bg-white p-4 flex flex-col gap-5">
+                  {/*}  <GatsbyImage
+                  image={node.imageFormation.gatsbyImageData}
+                    alt={node.imageFormation.alt}
+              />{*/}
+                  <h3 className=" bg-third-color px-2 text-white text-3xl font-semibold">
+                    {node.titreFormation}
+                  </h3>
+                  <div
+                    className=""
+                    dangerouslySetInnerHTML={{
+                      __html: node.descriptifFormation,
+                    }}
+                  />
+                  <button className="text-white font-black w-max bg-black my-5 p-2">
+                    <a
+                      href={node.urlInscription}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {node.texteBoutonInscription}
+                    </a>
+                  </button>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      </article>
+    </Layout>
+  )
+}
 
-                  <a
-                    className="mx-auto lg:mx-0 w-max  bg-primary-color
-                      font-bold text-white rounded-full  py-2 px-4 shadow-lg
-                      focus:outline-none focus:shadow-outline
-                      transform transition hover:scale-105 duration-300 ease-in-out"
-                    href={node.lienInscription}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Inscription
-                  </a>
-                  <Link rel="noreferrer"
-                    className="mx-auto lg:mx-0 w-max  bg-fift-color  font-bold text-white rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                    to={node.slug}
-                  >
-                    {" "}
-                    Demande de formation
-                  </Link>
-                </div>
-              </div>
-              <figure className=" order-1 md:order-2 md:mb-20">
-                <GatsbyImage
-                  image={node.imageFormation.gatsbyImageData}
-                  alt={node.imageFormation.alt}
-                />
-              </figure>
-            </article>
-          </>
-        ) : (
-          <>
-            <article class="w-12/12 bg-primary-color p-5 md:p-20 flex flex-col md:grid grid-cols-2 gap-x-10">
-              <figure className="md:mb-20">
-                <GatsbyImage
-                  image={node.imageFormation.gatsbyImageData}
-                  alt={node.imageFormation.alt}
-                />
-              </figure>
-              <div>
-                <h2 className="text-2xl md:text-4xl text-white ">{node.titreFormation} </h2>
-                <h3 className="my-5 text-xl md:text-2xl text-white">
-                  {" "}
-                  {node.sousTitreFormation}
-                </h3>
-                <p
-                  className="  "
-                  dangerouslySetInnerHTML={{
-                    __html: node.texteIntroductif,
-                  }}
-                ></p>
-                <div class="flex flex-col md:flex-row items-center gap-4 mt-2 mb-8">
-                  <Link rel="noreferrer"
-                    className="mx-auto lg:mx-0 w-max  
-                    bg-white  font-bold text-third-color rounded-full  py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-                    to={node.slug}
-                  >
-                    {" "}
-                    En savoir plus
-                  </Link>
-                  <a
-                    className="mx-auto lg:mx-0 w-max  bg-third-color
-                      font-bold text-white rounded-full  py-2 px-4 shadow-lg
-                      focus:outline-none focus:shadow-outline
-                      transform transition hover:scale-105 duration-300 ease-in-out"
-                    href={node.lienInscription}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Inscription
-                  </a>
-                  <Link rel="noreferrer"
-                    className="mx-auto lg:mx-0 w-max
-                      bg-fift-color  font-bold text-white rounded-full  
-                      py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline 
-                      transform transition hover:scale-105 duration-300 ease-in-out"
-                    to={node.slug}
-                  >
-                    {" "}
-                    Demande de formation
-                  </Link>
-                </div>
-              </div>
-            </article>
-          </>
-        )
-      )}
-    </main>
-  </Layout>
-)
 export const query = graphql`
-  {
-    allDatoCmsFormation {
+  query {
+    allDatoCmsListeModuleFormation {
       edges {
         node {
-          dateDeLEvenement
-          duree
-          enPratique
-          formationPasPour
-          formationPour
-          introduction
-          lienInscription
-          lieu
-          materiel
-          nombreDeParticipants
-          objectifsFormation
-          seo {
-            description
-            title
-            twitterCard
-            image {
-              gatsbyImageData
-            }
-          }
-          slug
-          sousTitreFormation
-          texteIntroductif
-          titreFormation
+          descriptifFormation
           imageFormation {
             alt
-            gatsbyImageData
+            gatsbyImageData(height: 200)
           }
+          texteBoutonEnSavoirPlus
+          texteBoutonInscription
+          titreFormation
+          prix
+          urlInscription
+        }
+      }
+    }
+    datoCmsPageNouvelleFormation {
+      titreDeLaPage
+      textePage
+      illustrationPage {
+        fluid {
+          src
         }
       }
     }

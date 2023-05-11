@@ -15,7 +15,7 @@ const Appel = () => {
   if ( appel === true) {
 
   return <a className="" rel="noreferrer" href={data.datoCmsBoutonAppel.urlInscription} target="_blank">
-  <button class=" mx-auto lg:mx-0 w-max  bg-liono-green hover:opacity-90  
+  <button className=" mx-auto lg:mx-0 w-max  bg-liono-green hover:opacity-90  
   font-bold text-white rounded-full  py-2 px-4 shadow-lg 
   focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 >
