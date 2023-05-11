@@ -54,7 +54,7 @@ export default function Nav() {
               
               duration-300"
             >
-              accompagnement digital 
+              Accompagnement numérique 
             </p>
           </Link>
         </li>
