@@ -53,10 +53,12 @@ const Formations = ({ data }) => {
             {data.allDatoCmsListeModuleFormation.edges.map(({ node }) => {
               return (
                 <div className=" bg-white p-4 flex flex-col gap-5">
-                  {/*}  <GatsbyImage
+                   <GatsbyImage
                   image={node.imageFormation.gatsbyImageData}
                     alt={node.imageFormation.alt}
-              />{*/}
+                    loading="lazy"
+
+              />
                   <h3 className=" bg-third-color px-2 text-white text-3xl font-semibold">
                     {node.titreFormation}
                   </h3>
