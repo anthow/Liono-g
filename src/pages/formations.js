@@ -13,7 +13,9 @@ const Formations = ({ data }) => {
   return (
     <Layout>
       <Seo title="formations numériques eco-responsables" />
-      <article className=" w-12/12 p-4 md:p-0  pb-20 bg-secondary-color ">
+      <article className="flex flex-col md:grid grid-cols-7  bg-secondary-color ">
+      <section className=" bg-secondary-color"></section>
+      <section className=" w-12/12 p-4 md:p-0 col-span-6  pb-20 bg-secondary-color ">
         <section
           style={bgimage}
           className="  md:w-12/12 py-4 gap-y-5 md:py-20 m-auto  md:items-center md:pl-10  flex flex-col  lg:grid grid-cols-2 "
@@ -43,6 +45,7 @@ const Formations = ({ data }) => {
             />
           </div>
         </section>
+      </section>
       </article>
       <article className=" w-12/12  py-20 bg-secondary-color ">
         <section className="flex flex-col w gap-y-10">

@@ -30,18 +30,20 @@ const Event = () => {
           <div className="fex flex-col space-y-5 order-2 md:order-1">
             <div className="flex flex-col space-y-2">
               <h3 className="text-2xl">
-                Pratiques numériques écoresponsables… ou comment réduire notre
-                empreinte écologique sans sacrifier nos outils digitaux
+                Webinaire: Les clés pour définir votre site web avant de vous lancer dans
+                des dépenses inconsidérées
               </h3>
-              <p className="text-sm italic">Le 10 juin 2023 de 13h à 17h - Namur </p>
+              <p className="text-sm italic">
+                Le mardi 22 septembre 2023 de 12h15 à 13h{" "}
+              </p>
             </div>
             <p>
-              Anthony Englebert, fondateur de l'agence Liono, animera une
-              présentation sur l'impact écologique du numérique et comment
-              choisir des outils logiciels et matériels plus vertueux pour
-              réduire notre empreinte écologique. Il donnera des conseils pour
-              réduire notre consommation d'énergie et adopter de bonnes
-              pratiques pour notre utilisation quotidienne du numérique.
+              Découvrez les secrets pour définir votre site web de manière
+              efficace, sans vous ruiner. Apprenez à planifier vos objectifs, à
+              cibler votre public et à optimiser votre investissement.
+              Économisez temps et argent en prenant des décisions éclairées.
+              Rejoignez notre webinaire dès maintenant et maîtrisez l'art de
+              créer un site web performant, sans dépenses inconsidérées.
             </p>
             <div className="flex  md:space-x-4">
               <button
@@ -50,32 +52,39 @@ const Event = () => {
       my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform 
       transition hover:scale-105 duration-300 ease-in-out w-max"
               >
-                <a href="https://framaforms.org/inscription-a-levenement-du-10062023-1683400527" target=" _blank" rel="noopener">
-                  
+                <a
+                  href="https://tally.so/r/mBK5Z7"
+                  target=" _blank"
+                  rel="noopener"
+                >
                   Inscription{" "}
                 </a>
               </button>
               <button
-                className="mx-auto  lg:mx-0  
+                className="mx-auto hidden  lg:mx-0  
       bg-black hover:bg-gray-600  font-bold text-white 
       text-lg
       my-6 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform 
       transition hover:scale-105 duration-300 ease-in-out"
               >
-                                <a href="https://www.facebook.com/ZoheWomenEconomy/posts/pfbid02ZaFdTUdYwuAxxtgEfXM1g5nBw6L4xj35RUP2Vfg3Bykt3mZYMPGmsfuntf8tybMl" target=" _blank" rel="noopener">
-
-                En savoir plus{" "}
+                <a
+                  href="https://www.facebook.com/ZoheWomenEconomy/posts/pfbid02ZaFdTUdYwuAxxtgEfXM1g5nBw6L4xj35RUP2Vfg3Bykt3mZYMPGmsfuntf8tybMl"
+                  target=" _blank"
+                  rel="noopener"
+                >
+                  En savoir plus{" "}
                 </a>
               </button>
             </div>
           </div>{" "}
           <StaticImage
             loading="lazy"
-            src="https://res.cloudinary.com/liono/image/upload/v1683610652/VISUEL_annonce_pour_pages_FB_et_LinkedIn_1_wka45f.webp"
-            alt="Image de l'événement sur le numérique responsable à Namur le 10 juin 2023"
+            src="https://res.cloudinary.com/liono/image/upload/v1672660578/site%20Liono/accompagnement_zikfld.jpg"
+            alt="image illustrant le webinaire sur Les clés pour définir votre site web avant de vous lancer dans
+            des dépenses inconsidérées "
             className="h-full order-1 md:order-2"
           />
-        </div>
+          </div>
       </section>
     </article>
   )
