@@ -13,19 +13,6 @@ export default function Rs() {
 
         <li>
           <a
-            href="https://www.facebook.com/Liono-106603081895565"
-            target="_blank"
-            without rel="noreferrer"
-            className="py-2 px-2 hover:opacity-50" >
-            {" "}
-            <FontAwesomeIcon
-              className="text-m "
-              icon={faFacebook}
-            />
-          </a>
-        </li>
-        <li>
-          <a
             href="https://www.instagram.com/liono.be/"
             target="_blank"
             without rel="noreferrer"
